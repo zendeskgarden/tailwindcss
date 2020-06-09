@@ -1,0 +1,45 @@
+{
+  "name": "@zendeskgarden/tailwindcss",
+  "description": "Garden Design Tokens",
+  "license": "Apache-2.0",
+  "author": "Zendesk Garden <garden@zendesk.com>",
+  "homepage": "https://garden.zendesk.com/",
+  "repository": "https://github.com/zendeskgarden/tailwindcss",
+  "bugs": {
+    "url": "https://github.com/zendeskgarden/tailwindcss/issues"
+  },
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "true",
+    "format": "prettier-package-json --write && yarn format:all --write",
+    "format:all": "prettier --loglevel warn '**/*.{js,ts,json,md}' '!CHANGELOG.md' '!dist/**'",
+    "lint": "yarn lint:js && yarn lint:md",
+    "lint:js": "eslint src/ --ext js,ts --max-warnings 0",
+    "lint:md": "markdownlint README.md src/**/*.md",
+    "prepare": "yarn build",
+    "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'master' ] && standard-version --no-verify",
+    "test": "prettier-package-json --list-different && yarn format:all --check && yarn lint"
+  },
+  "devDependencies": {
+    "@zendeskgarden/eslint-config": "13.0.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.2.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-notice": "0.9.10",
+    "husky": "4.2.5",
+    "markdownlint-cli": "0.23.1",
+    "prettier": "2.0.5",
+    "prettier-package-json": "2.1.3",
+    "standard-version": "8.0.0"
+  },
+  "keywords": [
+    "design",
+    "garden",
+    "tokens",
+    "zendesk"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
