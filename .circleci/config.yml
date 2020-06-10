@@ -1,0 +1,63 @@
+version: 2.1
+orbs:
+  node: circleci/node@3.0.0
+
+references:
+  executor: &executor
+    executor:
+      name: node/default
+      tag: lts
+
+  workspace_root: &workspace_root ~/project
+
+  attach_workspace: &attach_workspace
+    attach_workspace:
+      at: *workspace_root
+
+  filters_tags: &filters_tags
+    filters:
+      tags:
+        only: /.*/
+
+jobs:
+  build:
+    <<: *executor
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: yarn
+      - persist_to_workspace:
+          root: *workspace_root
+          paths: .
+
+  test:
+    <<: *executor
+    steps:
+      - *attach_workspace
+      - run: yarn test
+
+  publish:
+    <<: *executor
+    steps:
+      - *attach_workspace
+      - run: npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+      - run: npm publish
+
+workflows:
+  main:
+    jobs:
+      - build:
+          <<: *filters_tags
+      - test:
+          requires:
+            - build
+          <<: *filters_tags
+      - publish:
+          requires:
+            - test
+          context: maintainer
+          filters:
+            tags:
+              only: /^v\d+\.\d+\.\d+(-\S*)?$/
+            branches:
+              ignore: /.*/
