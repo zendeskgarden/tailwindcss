@@ -1,3 +1,11 @@
 {
-  "extends": ["@zendeskgarden", "@zendeskgarden/eslint-config/plugins/notice.js"]
+  "extends": [
+    "@zendeskgarden",
+    "@zendeskgarden/eslint-config/plugins/notice.js",
+    "plugin:jest/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier", "jest", "@typescript-eslint"]
 }
