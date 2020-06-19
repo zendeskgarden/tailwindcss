@@ -22,8 +22,8 @@
     "lint:md": "markdownlint README.md src/**/*.md",
     "prepare": "yarn build",
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'master' ] && standard-version --no-verify",
-    "test": "prettier-package-json --list-different && yarn format:all --check && yarn lint && yarn test:js",
-    "test:js": "jest"
+    "test": "jest",
+    "test:ci": "prettier-package-json --list-different && yarn format:all --check && yarn lint && yarn test"
   },
   "types": "dist/typings/index.d.ts",
   "dependencies": {

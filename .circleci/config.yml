@@ -34,7 +34,7 @@ jobs:
     <<: *executor
     steps:
       - *attach_workspace
-      - run: yarn test
+      - run: yarn test:ci
 
   publish:
     <<: *executor
