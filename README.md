@@ -33,9 +33,9 @@ module.exports = {
 
 ### Configuration
 
-The plugin allows an optional `includeBedrock` configuration which
-will disable Gardens [css-bedrock](https://github.com/zendeskgarden/css-components/tree/master/packages/bedrock)
-global resets.
+The plugin provides an optional `includeBedrock` setting which
+can be used to disable Garden's [css-bedrock](https://github.com/zendeskgarden/css-components/tree/master/packages/bedrock#readme)
+reset.
 
 ```js
 // tailwind.config.js
