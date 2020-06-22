@@ -1,4 +1,4 @@
-# Garden Design Tokens [![npm version][npm version badge]][npm version link] [![Build Status][build status badge]][build status link] [![Dependency Status][dependency status badge]][dependency status link]<!-- markdownlint-disable -->
+# Garden Design Tokens - Tailwind CSS [![npm version][npm version badge]][npm version link] [![Build Status][build status badge]][build status link] [![Dependency Status][dependency status badge]][dependency status link]<!-- markdownlint-disable -->
 
 <!-- markdownlint-enable -->
 
@@ -11,9 +11,8 @@
 
 > :seedling: Garden is a design system for Zendesk
 
-A [Tailwind](https://tailwindcss.com/) plugin for generating CSS based on
-Garden
-[theming](https://github.com/zendeskgarden/react-components/tree/master/packages/theming#readme).
+A [Tailwind CSS](https://tailwindcss.com/) plugin for generating CSS based on
+[Garden design primitives](https://github.com/zendeskgarden/react-components/tree/master/packages/theming#readme).
 
 ## Installation
 
@@ -23,7 +22,31 @@ npm install --save-dev @zendeskgarden/tailwindcss
 
 ## Usage
 
-TODO...
+Add the plugin to your `tailwind.config.js`:
+
+```js
+// tailwind.config.js
+module.exports = {
+  plugins: [require('@zendeskgarden/tailwindcss')]
+};
+```
+
+### Configuration
+
+The plugin provides an optional `includeBedrock` setting which
+can be used to disable Garden's [css-bedrock](https://github.com/zendeskgarden/css-components/tree/master/packages/bedrock#readme)
+reset.
+
+```js
+// tailwind.config.js
+module.exports = {
+  plugins: [
+    require('@zendeskgarden/tailwindcss')({
+      includeBedrock: false // default to true
+    })
+  ]
+};
+```
 
 ## Contribution
 

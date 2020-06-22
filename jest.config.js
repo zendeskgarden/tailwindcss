@@ -5,4 +5,7 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-/* TODO */
+module.exports = {
+  preset: 'ts-jest',
+  testEnvironment: 'node'
+};
