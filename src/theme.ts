@@ -8,7 +8,7 @@
 import { DEFAULT_THEME, PALETTE } from '@zendeskgarden/react-theming';
 import { rgba } from 'polished';
 
-const BASE = 4;
+const BASE = DEFAULT_THEME.space.base;
 
 export const theme = {
   screens: {
@@ -103,15 +103,6 @@ export const theme = {
     lg: DEFAULT_THEME.lineHeights.lg,
     xl: DEFAULT_THEME.lineHeights.xl,
     '2xl': DEFAULT_THEME.lineHeights.xxl,
-    '3xl': DEFAULT_THEME.lineHeights.xxxl,
-    3: `${BASE * 3}px`,
-    4: `${BASE * 4}px`,
-    5: `${BASE * 5}px`,
-    6: `${BASE * 6}px`,
-    7: `${BASE * 7}px`,
-    8: `${BASE * 8}px`,
-    9: `${BASE * 9}px`,
-    10: `${BASE * 10}px`,
-    11: `${BASE * 11}px`
+    '3xl': DEFAULT_THEME.lineHeights.xxxl
   }
 };
