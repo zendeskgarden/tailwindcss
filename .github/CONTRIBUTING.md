@@ -43,7 +43,7 @@ commands are available:
    Use whatever casual commit messaging you find suitable. We'll help
    you apply an appropriate squashed [conventional
    commit](https://conventionalcommits.org/) message when it's time to
-   merge to master.
+   merge to the main branch.
 1. If your changes result in a major modification, be sure all
    documentation is up-to-date.
 1. When your branch is ready, open a new pull request via GitHub.
@@ -55,7 +55,7 @@ commands are available:
    considered for merge.
 1. Garden
    [maintainers](https://github.com/orgs/zendeskgarden/teams/maintainers)
-   will manage the squashed merge to master, using your PR title and
+   will manage the squashed merge to the main branch, using your PR title and
    description as the scope, description, and body for a conventional
    commit.
 
