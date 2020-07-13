@@ -1,0 +1,29 @@
+
+.textarea {
+  @apply block;
+  @apply w-full;
+  @apply h-17;
+  @apply rounded;
+  @apply border;
+  @apply border-grey-300;
+  @apply my-3;
+  @apply px-3;
+  @apply resize-none;
+  @apply transition-all;
+  @apply duration-150;
+  @apply ease-in-out;
+  @apply pt-1-1/2;
+}
+
+.textarea:focus, .textarea:hover, .textarea:active {
+  @apply border-blue-600;
+}
+
+.textarea:focus {
+  @apply outline-none;
+  @apply shadow-outline;
+}
+
+.textarea::placeholder {
+  @apply text-grey-400;
+}

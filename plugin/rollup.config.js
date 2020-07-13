@@ -18,7 +18,8 @@ export default {
     const externals = [
       ...Object.keys(pkg.dependencies),
       ...Object.keys(pkg.peerDependencies),
-      'tailwindcss/plugin'
+      'tailwindcss/plugin',
+      'fs'
     ];
 
     return externals.includes(id);

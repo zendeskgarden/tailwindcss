@@ -34,14 +34,23 @@ jobs:
     <<: *executor
     steps:
       - *attach_workspace
-      - run: yarn test:ci
+      - run: yarn workspace @zendeskgarden/tailwindcss test:ci
+
+  deploy:
+    <<: *executor
+    environment:
+      NODE_DEBUG: gh-pages
+    steps:
+      - *attach_workspace
+      - run: yarn workspace example build
+      - run: example/scripts/deploy.js
 
   publish:
     <<: *executor
     steps:
       - *attach_workspace
       - run: npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN
-      - run: npm publish
+      - run: yarn workspace @zendeskgarden/tailwindcss publish
 
 workflows:
   main:
@@ -52,6 +61,10 @@ workflows:
           requires:
             - build
           <<: *filters_tags
+      - deploy:
+          requires:
+            - test
+          context: writer
       - publish:
           requires:
             - test
