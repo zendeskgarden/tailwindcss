@@ -26,6 +26,7 @@ jobs:
       - checkout
       - node/install-packages:
           pkg-manager: yarn
+      - run: yarn workspace @zendeskgarden/tailwindcss build
       - persist_to_workspace:
           root: *workspace_root
           paths: .
