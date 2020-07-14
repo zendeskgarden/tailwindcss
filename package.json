@@ -1,9 +1,16 @@
 {
   "private": true,
-  "workspaces": [
-    "example",
-    "plugin"
-  ],
+  "workspaces": {
+    "packages": [
+      "example",
+      "plugin"
+    ],
+    "nohoist": [
+      "**/babel**",
+      "**/eslint**",
+      "**/jest**"
+    ]
+  },
   "devDependencies": {
     "husky": "4.2.5"
   }
