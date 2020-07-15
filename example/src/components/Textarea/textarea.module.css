@@ -1,8 +1,9 @@
 
 .textarea {
+  padding-top: 6px;
+  height: 68px;
   @apply block;
   @apply w-full;
-  @apply h-17;
   @apply rounded;
   @apply border;
   @apply border-grey-300;
@@ -12,7 +13,6 @@
   @apply transition-all;
   @apply duration-150;
   @apply ease-in-out;
-  @apply pt-1-1/2;
 }
 
 .textarea:focus, .textarea:hover, .textarea:active {

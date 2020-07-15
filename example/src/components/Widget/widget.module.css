@@ -25,8 +25,8 @@
 }
 
 .wordmark {
+  width: 54px;
   @apply h-4;
   @apply block;
   @apply text-grey-500;
-  @apply w-13-1/2;
 }
