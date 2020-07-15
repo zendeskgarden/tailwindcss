@@ -1,0 +1,32 @@
+.message-group {
+  @apply flex;
+  @apply flex-col;
+  @apply relative;
+}
+
+.message-group--maker {
+  @apply pl-9;
+  @apply pr-4;
+  @apply items-start;
+}
+
+.message-group--user {
+  @apply pl-4;
+  @apply items-end;
+}
+
+.title {
+  @apply text-grey-600;
+  @apply text-sm;
+  @apply px-4;
+  @apply font-light;
+}
+
+.avatar > * {
+  @apply rounded-full;
+  @apply absolute;
+  @apply left-0;
+  @apply bottom-2;
+  @apply h-8;
+  @apply w-8;
+}

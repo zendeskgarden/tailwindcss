@@ -1,0 +1,76 @@
+.message {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  @apply bg-grey-200;
+  @apply text-grey-800;
+  @apply rounded-4;
+  @apply px-4;
+  @apply mb-2;
+}
+
+.message--maker {
+  @apply self-start;
+}
+
+.message--user {
+  @apply self-end;
+  @apply bg-teal-600;
+  @apply text-white;
+}
+
+.action-list {
+  margin-top: 6px;
+  margin-bottom: -6px;
+  @apply -mx-4;
+  @apply z-0;
+}
+
+.action {
+  @apply block;
+  @apply w-full;
+  @apply bg-white;
+  @apply border;
+  @apply border-grey-300;
+  @apply text-blue-600;
+  @apply leading-lg;
+  @apply px-2;
+  @apply py-2;
+  @apply transition-all;
+  @apply duration-75;
+  @apply ease-in-out;
+  @apply relative;
+}
+
+.action:hover {
+  @apply text-blue-700;
+  @apply bg-blue-600;
+  @apply bg-opacity-10;
+  @apply border-blue-600;
+  @apply z-10;
+}
+
+.action:active {
+  @apply text-blue-800;
+  @apply bg-blue-600;
+  @apply bg-opacity-20;
+  @apply border-blue-600;
+  @apply z-10;
+}
+
+.action:not(:first-child) {
+  @apply -mt-px;
+}
+
+.action:last-child {
+  @apply rounded-b-4;
+}
+
+.action:focus {
+  @apply outline-none;
+}
+
+.action:focus-visible {
+  @apply shadow-inner;
+  @apply border-blue-600;
+  @apply z-10;
+}

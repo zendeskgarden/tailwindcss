@@ -1,0 +1,32 @@
+.widget {
+  @apply max-w-sm;
+  @apply mx-auto;
+  @apply shadow-lg;
+  @apply rounded-2;
+  @apply flex;
+  @apply flex-col;
+}
+
+.header {
+  @apply bg-teal-600;
+  @apply text-white;
+  @apply font-semibold;
+  @apply py-2;
+  @apply text-center;
+  @apply rounded-t-2;
+}
+
+.content {
+  @apply px-5;
+  @apply py-3;
+  @apply flex;
+  @apply flex-col;
+  @apply flex-grow;
+}
+
+.wordmark {
+  width: 54px;
+  @apply h-4;
+  @apply block;
+  @apply text-grey-500;
+}

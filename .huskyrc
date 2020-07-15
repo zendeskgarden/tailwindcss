@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "yarn lint && yarn format",
+    "pre-commit": "yarn workspaces run lint && yarn workspaces run format",
     "post-checkout": "if [[ $GIT_PARAMS == *1 ]]; then yarn --ignore-scripts --pure-lockfile; fi",
     "post-merge": "yarn --ignore-scripts --pure-lockfile"
   }
