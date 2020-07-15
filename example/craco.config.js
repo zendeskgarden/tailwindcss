@@ -2,13 +2,13 @@ module.exports = {
   style: {
     postcss: {
       plugins: [
-        require("tailwindcss"),
-        require("postcss-focus-visible")({
+        require('tailwindcss'),
+        require('postcss-focus-visible')({
           preserve: false,
-          replaceWith: ":global(.focus-visible)", // necessary for CSS modules support
+          replaceWith: ':global(.focus-visible)' // necessary for CSS modules support
         }),
-        require("autoprefixer"),
-      ],
-    },
-  },
+        require('autoprefixer')
+      ]
+    }
+  }
 };

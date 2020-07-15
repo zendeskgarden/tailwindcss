@@ -9504,7 +9504,7 @@ markdownlint-rule-helpers@~0.10.0:
   resolved "https://registry.yarnpkg.com/markdownlint-rule-helpers/-/markdownlint-rule-helpers-0.10.0.tgz#6dd53be6f2872cea959f336978a5a21f9a4ca11e"
   integrity sha512-0e8VUTjNdQwS7hTyNan9oOLsy4a7KEsXo3fxKMDRFRk6Jn+pLB3iKZ3mj/m6ECrlOUCxPYYmgOmmyk3bSdbIvw==
 
-markdownlint@~0.20.3:
+markdownlint@^0.20.4, markdownlint@~0.20.3:
   version "0.20.4"
   resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.20.4.tgz#3b34681494cdad174e14a27182b5cdefaa537823"
   integrity sha512-jpfaPgjT0OpeBbemjYNZbzGG3hCLcAIvrm/pEY3+q/szDScG6ZonDacqySVRJAv9glbo8y4wBPJ0wgW17+9GGA==
@@ -11675,7 +11675,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier-package-json@2.1.3:
+prettier-package-json@2.1.3, prettier-package-json@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/prettier-package-json/-/prettier-package-json-2.1.3.tgz#c2383552aa226abe7a8a1b289d7844ffc8440d71"
   integrity sha512-GP245nK+xMsayxUghlmiCpzWSxfUywU6IADXy7KVc0cfb+Gs/yzzbqkseFTbmwXfld722gA1VpApy8INGdVfyg==

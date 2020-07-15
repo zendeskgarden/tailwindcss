@@ -7,23 +7,23 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-const envalid = require("envalid");
-const garden = require("@zendeskgarden/scripts");
-const path = require("path");
+const envalid = require('envalid');
+const garden = require('@zendeskgarden/scripts');
+const path = require('path');
 
 envalid.cleanEnv(process.env, {
   GITHUB_TOKEN: envalid.str(),
   NETLIFY_SITE_ID: envalid.str(),
-  NETLIFY_TOKEN: envalid.str(),
+  NETLIFY_TOKEN: envalid.str()
 });
 
 (async () => {
   try {
     const branch = await garden.githubBranch();
-    const dir = path.resolve(__dirname, "..", "build");
+    const dir = path.resolve(__dirname, '..', 'build');
     let url;
 
-    if (branch === "main") {
+    if (branch === 'main') {
       url = await garden.githubPages({ dir });
     } else {
       const repository = await garden.githubRepository();
@@ -32,7 +32,7 @@ envalid.cleanEnv(process.env, {
       const command = async () => {
         const result = await garden.netlifyDeploy({
           dir,
-          message,
+          message
         });
 
         return result;
