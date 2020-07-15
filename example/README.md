@@ -11,7 +11,7 @@ technologies and techniques to apply Garden design tokens with Tailwind.
 
 ## Technologies
 
-- [create-react-app](https://create-react-app.dev/) with Typescript as the starter project
+- [create-react-app](https://create-react-app.dev/) with TypeScript as the starter project
 - [Craco](https://github.com/gsoft-inc/craco) to allow PostCSS customization without CRA ejection
 - [Tailwind CSS](https://tailwindcss.com/) and the
   [@zendeskgarden/tailwindcss](https://github.com/zendeskgarden/tailwindcss) plugin
