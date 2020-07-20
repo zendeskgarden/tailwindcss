@@ -40,7 +40,7 @@ The simplest way to apply Garden Design Tokens is by using the
 <img
   class="rounded-full h-8 w-8 border border-green-600"
   src="avatar.png"
-  alt="Avatar image" />
+  alt="Avatar" />
 ```
 
 To reduce the bundle size impact of these utilities consider using the [PurgeCSS functionality](https://tailwindcss.com/docs/controlling-file-size#removing-unused-css)
