@@ -49,7 +49,7 @@ provided within Tailwind.
 ### Class Composition with `@apply`
 
 Tailwind provides several [PostCSS directives](https://tailwindcss.com/docs/functions-and-directives/)
-to consume utility styles. The [@apply directive](https://tailwindcss.com/docs/functions-and-directives/#apply)
+for inserting utility styles into CSS. The [@apply directive](https://tailwindcss.com/docs/functions-and-directives/#apply)
 allows consumers to reference a specific utility value. This enables support
 for more advanced functionality like [CSS modules](https://github.com/css-modules/css-modules).
 
