@@ -31,6 +31,37 @@ module.exports = {
 };
 ```
 
+### Utility Classes
+
+The simplest way to apply Garden Design Tokens is by using the
+[Tailwind utility classes](https://tailwindcss.com/docs/utility-first).
+
+```html
+<img
+  class="rounded-full h-8 w-8 border border-green-600"
+  src="avatar.png"
+  alt="Avatar" />
+```
+
+To reduce the bundle size impact of these utilities consider using the [PurgeCSS functionality](https://tailwindcss.com/docs/controlling-file-size#removing-unused-css)
+provided within Tailwind.
+
+### Class Composition with `@apply`
+
+Tailwind provides several [PostCSS directives](https://tailwindcss.com/docs/functions-and-directives/)
+for inserting utility styles into CSS. The [@apply directive](https://tailwindcss.com/docs/functions-and-directives/#apply)
+allows consumers to reference a specific utility value. This enables support
+for more advanced functionality like [CSS modules](https://github.com/css-modules/css-modules).
+
+```css
+.title {
+  @apply text-grey-600;
+  @apply text-sm;
+  @apply px-4;
+  @apply font-light;
+}
+```
+
 ### Configuration
 
 The plugin provides an optional `includeBedrock` setting which
@@ -47,6 +78,15 @@ module.exports = {
   ]
 };
 ```
+
+## Tooling
+
+The [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+VS Code plugin provides autocomplete, syntax highlighting, and linting
+based on your Tailwind config. It is very helpful as the Garden-provided
+utilities differ slightly from those shown in the Tailwind documentation.
+
+![Tailwind CSS IntelliSense plugin example](.github/tailwind-intellisense.jpg)
 
 ## Contribution
 
