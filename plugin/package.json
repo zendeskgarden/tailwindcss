@@ -21,6 +21,7 @@
     "lint:js": "eslint src/ --ext js,ts --max-warnings 0",
     "lint:md": "markdownlint README.md src/**/*.md",
     "prepare": "yarn build",
+    "prepublishOnly": "cp ../README.md ./",
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
     "test": "jest",
     "test:ci": "prettier-package-json --list-different && yarn format:all --check && yarn lint && yarn test"
