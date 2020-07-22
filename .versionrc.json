@@ -7,6 +7,10 @@
   ],
   "bumpFiles": [
     {
+      "filename": "./plugin/package.json",
+      "type": "json"
+    },
+    {
       "filename": "./example/package.json",
       "type": "json"
     }
