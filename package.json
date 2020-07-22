@@ -1,5 +1,8 @@
 {
   "private": true,
+  "scripts": {
+    "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify"
+  },
   "workspaces": {
     "packages": [
       "example",
@@ -12,6 +15,7 @@
     ]
   },
   "devDependencies": {
-    "husky": "4.2.5"
+    "husky": "4.2.5",
+    "standard-version": "8.0.2"
   }
 }
