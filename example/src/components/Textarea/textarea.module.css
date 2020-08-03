@@ -3,10 +3,10 @@
   padding-top: 6px;
   height: 68px;
   @apply block;
-  @apply w-full;
   @apply rounded;
   @apply border;
   @apply border-grey-300;
+  @apply mx-5;
   @apply my-3;
   @apply px-3;
   @apply resize-none;

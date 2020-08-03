@@ -17,8 +17,6 @@
 }
 
 .content {
-  @apply px-5;
-  @apply py-3;
   @apply flex;
   @apply flex-col;
   @apply flex-grow;
@@ -29,4 +27,6 @@
   @apply h-4;
   @apply block;
   @apply text-grey-500;
+  @apply ml-5;
+  @apply mb-3;
 }

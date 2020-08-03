@@ -36,5 +36,5 @@ export default {
       useTsconfigDeclarationDir: true
     })
   ],
-  output: [{ dir: 'dist', format: 'cjs' }]
+  output: [{ dir: 'dist', format: 'cjs', exports: 'default' }]
 };

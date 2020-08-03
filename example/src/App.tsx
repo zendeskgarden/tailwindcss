@@ -22,12 +22,22 @@ const App: React.FC = () => (
       <ConversationLog>
         <MessageGroup
           type="maker"
-          title="Answer Bot"
+          title="Willow Kohlrabi • Bot"
           avatar={<WordmarkAnswerBot className={styles['answer-bot']} role="presentation" />}
         >
-          <Message>Hi, welcome to Joe's Coffee.</Message>
-          <Message>Ask me a question and I'll find you the answer</Message>
-          <Message>Or you can get in touch</Message>
+          <Message>Hi, how can I help you today?</Message>
+          <Message>Ask me a question and I'll find you the answer.</Message>
+          <Message>Or you can get in touch.</Message>
+        </MessageGroup>
+        <MessageGroup type="user">
+          <Message>Hours</Message>
+        </MessageGroup>
+        <MessageGroup
+          type="maker"
+          avatar={<WordmarkAnswerBot className={styles['answer-bot']} role="presentation" />}
+        >
+          <Message>Our shop is open today from 10am to 8pm.</Message>
+          <Message>Is there anything else I can help you with?</Message>
         </MessageGroup>
         <MessageGroup type="user">
           <Message>Get in touch</Message>
@@ -40,13 +50,13 @@ const App: React.FC = () => (
           <Message
             actions={
               <>
-                <Action>Chat with an agent</Action>
+                <Action>Chat with a team member</Action>
                 <Action>Leave a message</Action>
                 <Action>Request a callback</Action>
               </>
             }
           >
-            Our studio is open today from 10am to 10pm.
+            Here are some ways to get in touch.
           </Message>
         </MessageGroup>
       </ConversationLog>
