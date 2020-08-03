@@ -11,7 +11,8 @@
     "nohoist": [
       "**/babel**",
       "**/eslint**",
-      "**/jest**"
+      "**/jest**",
+      "**/react-scripts**"
     ]
   },
   "devDependencies": {
