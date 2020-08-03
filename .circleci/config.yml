@@ -35,7 +35,7 @@ jobs:
     <<: *executor
     steps:
       - *attach_workspace
-      - run: yarn workspace @zendeskgarden/tailwindcss test:ci
+      - run: yarn workspaces run test:ci
 
   deploy:
     <<: *executor

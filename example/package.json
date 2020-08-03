@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "example",
+  "homepage": "./",
   "version": "0.1.0",
   "scripts": {
     "build": "craco build",
@@ -9,9 +10,9 @@
     "lint": "yarn lint:js && yarn lint:md",
     "lint:js": "eslint src/ --ext js,ts,tsx --max-warnings 0",
     "lint:md": "markdownlint README.md",
-    "start": "craco start"
+    "start": "craco start",
+    "test:ci": "yarn format --check && yarn lint"
   },
-  "homepage": "./",
   "dependencies": {
     "@craco/craco": "5.6.4",
     "@testing-library/jest-dom": "5.11.1",

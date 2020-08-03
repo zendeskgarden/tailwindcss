@@ -1,3 +1,7 @@
 .log {
+  max-height: 385px;
   @apply flex-grow;
+  @apply overflow-y-auto;
+  @apply px-5;
+  @apply pt-3;
 }
