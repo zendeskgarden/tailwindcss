@@ -16,7 +16,10 @@
     ]
   },
   "devDependencies": {
+    "detect-indent": "6.0.0",
+    "detect-newline": "3.1.0",
     "husky": "4.2.5",
-    "standard-version": "8.0.2"
+    "standard-version": "8.0.2",
+    "stringify-package": "1.0.1"
   }
 }
