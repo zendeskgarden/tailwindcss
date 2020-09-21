@@ -26,7 +26,7 @@
     "@zendeskgarden/scripts": "0.1.11",
     "@zendeskgarden/svg-icons": "6.23.0",
     "@zendeskgarden/tailwindcss": "1.0.0",
-    "autoprefixer": "9.8.6",
+    "autoprefixer": "10.0.0",
     "classnames": "2.2.6",
     "envalid": "6.0.2",
     "focus-visible": "5.1.0",
