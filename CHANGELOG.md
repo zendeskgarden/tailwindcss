@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/zendeskgarden/tailwindcss/compare/v1.0.0...v1.0.1) (2020-09-22)
+
+
+### Bug Fixes
+
+* ensure preflight styles are removed when Garden bedrock is applied ([#36](https://github.com/zendeskgarden/tailwindcss/issues/36)) ([f23ec2d](https://github.com/zendeskgarden/tailwindcss/commit/f23ec2d17d5e950570522096e5dcce01e350ff95))
+* **deps:** update all non-major dependencies ([#23](https://github.com/zendeskgarden/tailwindcss/issues/23)) ([191f007](https://github.com/zendeskgarden/tailwindcss/commit/191f007cbb735bdd27900b5dc2bdbd0181662ba8))
+* **deps:** update dependency @testing-library/react to v11 ([#32](https://github.com/zendeskgarden/tailwindcss/issues/32)) ([8b6ba1d](https://github.com/zendeskgarden/tailwindcss/commit/8b6ba1d159bb79c39308cc91bde939762677c9ba))
+* **deps:** update dependency @testing-library/user-event to v12.1.6 ([#35](https://github.com/zendeskgarden/tailwindcss/issues/35)) ([76c7cd5](https://github.com/zendeskgarden/tailwindcss/commit/76c7cd5e93716373de44809bf82592f664605c3b))
+* **deps:** update dependency autoprefixer to v10 ([#33](https://github.com/zendeskgarden/tailwindcss/issues/33)) ([5e0659a](https://github.com/zendeskgarden/tailwindcss/commit/5e0659a4b56e017ea8419ea004fd5b6c84d2713e))
+
 ## [1.0.0](https://github.com/zendeskgarden/tailwindcss/compare/v0.1.1...v1.0.0) (2020-09-03)
 
 
