@@ -35,7 +35,7 @@ export default plugin.withOptions(
   (options: IPluginOptions = DEFAULT_OPTIONS) => ({
     theme: gardenTheme, // Overwrite global theme with Garden values
     corePlugins: {
-      preflight: !!options.includeBedrock // Disable Tailwind global resets as we provide our own
+      preflight: !options.includeBedrock // Disable Tailwind global resets as we provide our own
     }
   })
 ) as (options?: IPluginOptions) => void;

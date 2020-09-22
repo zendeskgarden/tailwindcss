@@ -29,4 +29,4 @@ export const Message: React.FC<{ actions?: React.ReactElement }> = ({ children, 
 export const Action: React.FC<ButtonHTMLAttributes<HTMLButtonElement>> = ({
   className,
   ...other
-}) => <button className={classNames(className, styles.action)} {...other} />;
+}) => <button className={classNames(className, styles.action)} type="button" {...other} />;
