@@ -1,8 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Garden TailwindCSS Plugin Bedrock reset applies preflight styles when disabled 1`] = `""`;
-
-exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
+exports[`Garden TailwindCSS Plugin Bedrock reset applies preflight styles when disabled 1`] = `
 "/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -580,9 +578,11 @@ img,
 video {
   max-width: 100%;
   height: auto;
-}
+}"
+`;
 
-/*!
+exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
+"/*!
  * Copyright Zendesk, Inc.
  *
  * Use of this source code is governed under the Apache License, Version 2.0

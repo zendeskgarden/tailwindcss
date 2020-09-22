@@ -26,6 +26,7 @@
 }
 
 .action {
+  border: 0 solid;
   @apply block;
   @apply w-full;
   @apply bg-white;
