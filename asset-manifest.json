@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.badb4be9.chunk.css",
-    "main.js": "./static/js/main.34097c42.chunk.js",
-    "main.js.map": "./static/js/main.34097c42.chunk.js.map",
+    "main.css": "./static/css/main.4990a240.chunk.css",
+    "main.js": "./static/js/main.5ba39fad.chunk.js",
+    "main.js.map": "./static/js/main.5ba39fad.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.e89f0be9.js",
     "runtime-main.js.map": "./static/js/runtime-main.e89f0be9.js.map",
     "static/js/2.f645c54e.chunk.js": "./static/js/2.f645c54e.chunk.js",
     "static/js/2.f645c54e.chunk.js.map": "./static/js/2.f645c54e.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.65680b98cf157c6caf524ae3d6ad8e5e.js": "./precache-manifest.65680b98cf157c6caf524ae3d6ad8e5e.js",
+    "precache-manifest.68367142f1db1628344dd539cadb312a.js": "./precache-manifest.68367142f1db1628344dd539cadb312a.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.badb4be9.chunk.css.map": "./static/css/main.badb4be9.chunk.css.map",
+    "static/css/main.4990a240.chunk.css.map": "./static/css/main.4990a240.chunk.css.map",
     "static/js/2.f645c54e.chunk.js.LICENSE.txt": "./static/js/2.f645c54e.chunk.js.LICENSE.txt",
     "static/media/answer-bot.svg": "./static/media/answer-bot.9208978e.svg",
     "static/media/wordmark-zendesk.svg": "./static/media/wordmark-zendesk.f1b3314a.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e89f0be9.js",
     "static/js/2.f645c54e.chunk.js",
-    "static/css/main.badb4be9.chunk.css",
-    "static/js/main.34097c42.chunk.js"
+    "static/css/main.4990a240.chunk.css",
+    "static/js/main.5ba39fad.chunk.js"
   ]
 }
