@@ -5,7 +5,7 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-import { DEFAULT_THEME, PALETTE } from '@zendeskgarden/react-theming';
+import { DEFAULT_THEME } from '@zendeskgarden/react-theming';
 import { rgba } from 'polished';
 
 const BASE = DEFAULT_THEME.space.base;
@@ -19,7 +19,7 @@ export const theme = {
   },
   colors: {
     transparent: 'transparent',
-    ...PALETTE
+    ...DEFAULT_THEME.palette
   },
   spacing: {
     px: '1px',
