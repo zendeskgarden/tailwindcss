@@ -12,7 +12,10 @@ module.exports = {
       backgroundOpacity: {
         10: '0.1',
         20: '0.2'
-      }
+      },
+      fill: theme => ({
+        kale: theme('colors.kale')
+      })
     }
   },
   variants: {},

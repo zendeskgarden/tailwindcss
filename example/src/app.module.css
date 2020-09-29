@@ -1,4 +1,4 @@
 .answer-bot {
-  fill: #616788;
-  color: #D0EEEC;
+  @apply fill-kale-700;
+  color: #d6eef1;
 }
