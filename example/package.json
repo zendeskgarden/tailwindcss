@@ -10,6 +10,7 @@
     "lint": "yarn lint:js && yarn lint:md",
     "lint:js": "eslint src/ --ext js,ts,tsx --max-warnings 0",
     "lint:md": "markdownlint README.md",
+    "prepare": "yarn build",
     "start": "craco start",
     "test:ci": "yarn format --check && yarn lint"
   },
