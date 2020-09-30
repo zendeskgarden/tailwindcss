@@ -19,7 +19,7 @@
     "format:all": "prettier --loglevel warn '**/*.{js,ts,json,md}' '!CHANGELOG.md' '!dist/**'",
     "lint": "eslint src/ --ext js,ts --max-warnings 0",
     "prepare": "yarn build",
-    "prepublishOnly": "cp ../{LICENSE,README}.md ./",
+    "prepublishOnly": "cp ../LICENSE.md ../README.md ./",
     "test": "jest",
     "test:ci": "prettier-package-json --list-different && yarn format:all --check && yarn lint && yarn test"
   },
