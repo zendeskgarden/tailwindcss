@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/zendeskgarden/tailwindcss/compare/v1.0.2...v1.1.0) (2020-10-20)
+
+
+### Features
+
+* include pre-built utility styles ([#39](https://github.com/zendeskgarden/tailwindcss/issues/39)) ([ad2d164](https://github.com/zendeskgarden/tailwindcss/commit/ad2d164678aa8ebbc2ba25c85d76271bbb88e8e8))
+
+
+### Bug Fixes
+
+* npm publish ([#38](https://github.com/zendeskgarden/tailwindcss/issues/38)) ([c6884a1](https://github.com/zendeskgarden/tailwindcss/commit/c6884a1037eb40be1feafbc7aab178b1e7365f56))
+
 ### [1.0.2](https://github.com/zendeskgarden/tailwindcss/compare/v1.0.1...v1.0.2) (2020-09-30)
 
 
