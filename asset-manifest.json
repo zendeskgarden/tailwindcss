@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.8bd999ea.chunk.css",
+    "main.css": "./static/css/main.3c4e3c52.chunk.css",
     "main.js": "./static/js/main.5ba39fad.chunk.js",
     "main.js.map": "./static/js/main.5ba39fad.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.e89f0be9.js",
@@ -8,9 +8,9 @@
     "static/js/2.f645c54e.chunk.js": "./static/js/2.f645c54e.chunk.js",
     "static/js/2.f645c54e.chunk.js.map": "./static/js/2.f645c54e.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.b1cec36ebb96d985cdcd0ec887397519.js": "./precache-manifest.b1cec36ebb96d985cdcd0ec887397519.js",
+    "precache-manifest.c3765cf0775868a17cc56bfc346e6295.js": "./precache-manifest.c3765cf0775868a17cc56bfc346e6295.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.8bd999ea.chunk.css.map": "./static/css/main.8bd999ea.chunk.css.map",
+    "static/css/main.3c4e3c52.chunk.css.map": "./static/css/main.3c4e3c52.chunk.css.map",
     "static/js/2.f645c54e.chunk.js.LICENSE.txt": "./static/js/2.f645c54e.chunk.js.LICENSE.txt",
     "static/media/answer-bot.svg": "./static/media/answer-bot.9208978e.svg",
     "static/media/wordmark-zendesk.svg": "./static/media/wordmark-zendesk.f1b3314a.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e89f0be9.js",
     "static/js/2.f645c54e.chunk.js",
-    "static/css/main.8bd999ea.chunk.css",
+    "static/css/main.3c4e3c52.chunk.css",
     "static/js/main.5ba39fad.chunk.js"
   ]
 }
