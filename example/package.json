@@ -25,7 +25,7 @@
     "@types/react": "16.9.56",
     "@types/react-dom": "16.9.9",
     "@zendeskgarden/scripts": "0.1.11",
-    "@zendeskgarden/svg-icons": "6.25.1",
+    "@zendeskgarden/svg-icons": "6.26.0",
     "@zendeskgarden/tailwindcss": "1.1.0",
     "autoprefixer": "9.8.6",
     "classnames": "2.2.6",
