@@ -8,10 +8,10 @@
     {
       "files": ["*.ts"],
       "excludedFiles": ["*.spec.*"],
+      "extends": ["@zendeskgarden/eslint-config/plugins/typescript-semantics"],
       "parserOptions": {
         "project": ["./tsconfig.json"]
       },
-      "extends": ["@zendeskgarden/eslint-config/plugins/typescript-semantics"],
       "rules": {
         "@typescript-eslint/strict-boolean-expressions": "off",
         "@typescript-eslint/no-unsafe-member-access": "off",

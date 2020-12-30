@@ -9,7 +9,7 @@
 [dependency status badge]: https://flat.badgen.net/david/dev/zendeskgarden/tailwindcss?label=dependencies
 [dependency status link]: https://david-dm.org/zendeskgarden/tailwindcss?type=dev
 
-> :seedling: Garden is a design system for Zendesk
+> :seedling: Garden is the design system by Zendesk
 
 A [Tailwind CSS](https://tailwindcss.com/) plugin for generating CSS based on
 [Garden design primitives](https://github.com/zendeskgarden/react-components/tree/main/packages/theming#readme).
@@ -37,10 +37,7 @@ The simplest way to apply Garden Design Tokens is by using the
 [Tailwind utility classes](https://tailwindcss.com/docs/utility-first).
 
 ```html
-<img
-  class="rounded-full h-8 w-8 border border-green-600"
-  src="avatar.png"
-  alt="Avatar" />
+<img class="rounded-full h-8 w-8 border border-green-600" src="avatar.png" alt="Avatar" />
 ```
 
 To reduce the bundle size impact of these utilities consider using the [PurgeCSS functionality](https://tailwindcss.com/docs/controlling-file-size#removing-unused-css)
@@ -101,6 +98,6 @@ conduct](.github/CODE_OF_CONDUCT.md). Please participate accordingly.
 
 ## License
 
-Copyright 2020 Zendesk
+Copyright 2021 Zendesk
 
 Licensed under the [Apache License, Version 2.0](LICENSE.md)
