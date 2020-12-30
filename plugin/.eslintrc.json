@@ -1,16 +1,9 @@
 {
-  "extends": [
-    "@zendeskgarden",
-    "@zendeskgarden/eslint-config/plugins/notice",
-    "prettier"
-  ],
+  "extends": ["@zendeskgarden", "@zendeskgarden/eslint-config/plugins/notice", "prettier"],
   "overrides": [
     {
       "files": ["*.ts"],
-      "extends": [
-        "@zendeskgarden/eslint-config/plugins/typescript",
-        "prettier/@typescript-eslint"
-      ]
+      "extends": ["@zendeskgarden/eslint-config/plugins/typescript", "prettier/@typescript-eslint"]
     },
     {
       "files": ["*.ts"],
@@ -18,9 +11,7 @@
       "parserOptions": {
         "project": ["./tsconfig.json"]
       },
-      "extends": [
-        "@zendeskgarden/eslint-config/plugins/typescript-semantics"
-      ],
+      "extends": ["@zendeskgarden/eslint-config/plugins/typescript-semantics"],
       "rules": {
         "@typescript-eslint/strict-boolean-expressions": "off",
         "@typescript-eslint/no-unsafe-member-access": "off",

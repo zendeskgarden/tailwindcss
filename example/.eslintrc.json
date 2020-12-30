@@ -2,16 +2,21 @@
   "extends": [
     "@zendeskgarden",
     "@zendeskgarden/eslint-config/plugins/notice",
-    "prettier"
+    "@zendeskgarden/eslint-config/plugins/react",
+    "prettier",
+    "prettier/react"
   ],
+  "rules": {
+    "sort-imports": "off",
+    "spaced-comment": ["error", "always", { "markers": ["/"] }]
+  },
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"],
-      "extends": [
-        "@zendeskgarden/eslint-config/plugins/typescript",
-        "prettier/@typescript-eslint"
-      ]
+      "extends": ["@zendeskgarden/eslint-config/plugins/typescript", "prettier/@typescript-eslint"],
+      "rules": {
+        "react/prop-types": "off"
+      }
     }
   ]
 }
-

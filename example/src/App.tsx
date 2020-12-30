@@ -26,7 +26,7 @@ const App: React.FC = () => (
           avatar={<WordmarkAnswerBot className={styles['answer-bot']} role="presentation" />}
         >
           <Message>Hi, how can I help you today?</Message>
-          <Message>Ask me a question and I'll find you the answer.</Message>
+          <Message>Ask me a question and I&rsquo;ll find you the answer.</Message>
           <Message>Or you can get in touch.</Message>
         </MessageGroup>
         <MessageGroup type="user">

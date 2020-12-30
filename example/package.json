@@ -24,12 +24,23 @@
     "@types/node": "12.19.4",
     "@types/react": "16.9.56",
     "@types/react-dom": "16.9.9",
+    "@typescript-eslint/eslint-plugin": "4.11.1",
+    "@typescript-eslint/parser": "4.11.1",
+    "@zendeskgarden/eslint-config": "17.0.0",
     "@zendeskgarden/scripts": "0.1.11",
     "@zendeskgarden/svg-icons": "6.26.0",
     "@zendeskgarden/tailwindcss": "1.1.0",
     "autoprefixer": "9.8.6",
     "classnames": "2.2.6",
     "envalid": "6.0.2",
+    "eslint": "7.16.0",
+    "eslint-config-prettier": "7.1.0",
+    "eslint-plugin-jest": "24.1.3",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-notice": "0.9.10",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
     "focus-visible": "5.2.0",
     "markdownlint": "0.21.1",
     "path": "0.12.7",
@@ -52,8 +63,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   }
 }
