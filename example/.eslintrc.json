@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "@zendeskgarden",
+    "@zendeskgarden/eslint-config/plugins/notice",
+    "prettier"
+  ],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "@zendeskgarden/eslint-config/plugins/typescript",
+        "prettier/@typescript-eslint"
+      ]
+    }
+  ]
+}
+

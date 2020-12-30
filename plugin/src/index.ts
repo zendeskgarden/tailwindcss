@@ -18,7 +18,7 @@ const DEFAULT_OPTIONS: IPluginOptions = { includeBedrock: true };
 
 export default plugin.withOptions(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  (options: IPluginOptions = DEFAULT_OPTIONS) => ({ addBase }: any) => {
+  (options: IPluginOptions = DEFAULT_OPTIONS) => ({ addBase }: any): void => {
     if (!options.includeBedrock) {
       return;
     }
