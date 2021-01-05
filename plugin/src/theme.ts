@@ -8,7 +8,9 @@
 import { DEFAULT_THEME } from '@zendeskgarden/react-theming';
 import { rgba } from 'polished';
 
-const BASE = DEFAULT_THEME.space.base;
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+
+const BASE = DEFAULT_THEME.space.base as number;
 
 export const theme = {
   screens: {
@@ -44,7 +46,7 @@ export const theme = {
     56: `${BASE * 56}px`,
     64: `${BASE * 64}px`
   },
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-return
   borderColor: (localTheme: any): any => ({
     ...localTheme('colors'),
     default: localTheme('colors.grey.300', 'currentColor')
@@ -63,12 +65,12 @@ export const theme = {
     4: '4px',
     8: '8px'
   },
-  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types, @typescript-eslint/no-explicit-any
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   boxShadow: (localTheme: any): any => ({
     sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.600'), 0.15)),
     default: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.600'), 0.15)),
     lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.600'), 0.15)),
-    inner: `inset ${DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35))}`,
+    inner: `inset ${DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35)) as string}`,
     outline: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35)),
     none: 'none'
   }),

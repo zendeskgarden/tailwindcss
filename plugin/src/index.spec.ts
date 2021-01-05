@@ -9,7 +9,7 @@ import gardenPlugin from './index';
 import postcss from 'postcss';
 import tailwindCSS from 'tailwindcss';
 
-function processCSS(tailwindConfig: unknown, css: string) {
+function processCSS(tailwindConfig: unknown, css: string): postcss.LazyResult {
   return postcss([tailwindCSS(tailwindConfig)]).process(css, {
     from: undefined,
     to: undefined

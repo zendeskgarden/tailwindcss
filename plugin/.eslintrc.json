@@ -1,11 +1,26 @@
 {
-  "extends": [
-    "@zendeskgarden",
-    "@zendeskgarden/eslint-config/plugins/notice.js",
-    "plugin:jest/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
-  ],
-  "plugins": ["prettier", "jest", "@typescript-eslint"]
+  "extends": ["@zendeskgarden", "@zendeskgarden/eslint-config/plugins/notice", "prettier"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "extends": ["@zendeskgarden/eslint-config/plugins/typescript", "prettier/@typescript-eslint"]
+    },
+    {
+      "files": ["*.ts"],
+      "excludedFiles": ["*.spec.*"],
+      "extends": ["@zendeskgarden/eslint-config/plugins/typescript-semantics"],
+      "parserOptions": {
+        "project": ["./tsconfig.json"]
+      },
+      "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/no-unsafe-member-access": "off",
+        "@typescript-eslint/no-unsafe-call": "off"
+      }
+    },
+    {
+      "files": ["*.spec.*"],
+      "extends": "@zendeskgarden/eslint-config/plugins/jest"
+    }
+  ]
 }
