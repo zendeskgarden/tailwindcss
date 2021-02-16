@@ -22,7 +22,7 @@
     "@types/classnames": "2.2.11",
     "@types/jest": "26.0.20",
     "@types/node": "12.20.1",
-    "@types/react": "16.14.4",
+    "@types/react": "17.0.2",
     "@types/react-dom": "16.9.11",
     "@zendeskgarden/scripts": "0.1.11",
     "@zendeskgarden/svg-icons": "6.28.0",
