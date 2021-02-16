@@ -15,6 +15,7 @@
   "scripts": {
     "format": "prettier-package-json --write && yarn workspaces run format",
     "lint": "markdownlint README.md && yarn workspaces run lint",
+    "postinstall": "husky install",
     "prepare": "yarn workspace @zendeskgarden/tailwindcss prepare && yarn workspace example prepare",
     "start": "yarn workspace example start",
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
