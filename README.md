@@ -17,7 +17,7 @@ A [Tailwind CSS](https://tailwindcss.com/) plugin for generating CSS based on th
 ## Installation
 
 ```sh
-npm install --save-dev @zendeskgarden/tailwindcss
+npm install @zendeskgarden/tailwindcss
 ```
 
 ## Usage
