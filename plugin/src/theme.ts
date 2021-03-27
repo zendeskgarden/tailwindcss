@@ -10,7 +10,7 @@ import { rgba } from 'polished';
 
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
-const BASE = DEFAULT_THEME.space.base as number;
+const BASE = DEFAULT_THEME.space.base;
 
 export const theme = {
   screens: {
@@ -71,7 +71,7 @@ export const theme = {
     sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.600'), 0.15)),
     DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.600'), 0.15)),
     lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.600'), 0.15)),
-    inner: `inset ${DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35)) as string}`,
+    inner: `inset ${DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35))}`,
     outline: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35)),
     none: 'none'
   }),
