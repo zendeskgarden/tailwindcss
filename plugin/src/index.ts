@@ -30,7 +30,7 @@ export default plugin.withOptions(
     /**
      * Include `@zendeskgarden/css-bedrock` as a global CSS reset
      */
-    addBase(gardenBedrockCSS.nodes);
+    addBase(gardenBedrockCSS);
   },
   (options: IPluginOptions = DEFAULT_OPTIONS) => ({
     theme: gardenTheme, // Overwrite global theme with Garden values

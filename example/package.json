@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@craco/craco": "6.1.1",
+    "@tailwindcss/postcss7-compat": "2.0.4",
     "@testing-library/jest-dom": "5.11.9",
     "@testing-library/react": "11.2.5",
     "@testing-library/user-event": "12.7.1",
@@ -33,12 +34,13 @@
     "focus-visible": "5.2.0",
     "markdownlint": "0.23.1",
     "path": "0.12.7",
+    "postcss": "7.0.35",
     "postcss-focus-visible": "5.0.0",
     "prettier-package-json": "2.1.3",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-scripts": "4.0.2",
-    "tailwindcss": "1.9.6",
+    "react-scripts": "4.0.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "4.1.5"
   },
   "browserslist": {
