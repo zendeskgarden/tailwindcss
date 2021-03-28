@@ -4,7 +4,7 @@ exports[`Theme matches expected values 1`] = `
 Object {
   "borderColor": [Function],
   "borderRadius": Object {
-    "default": "4px",
+    "DEFAULT": "4px",
     "full": "9999px",
     "none": "0",
     "sm": "2px",
@@ -15,7 +15,7 @@ Object {
     "3": "3px",
     "4": "4px",
     "8": "8px",
-    "default": "1px",
+    "DEFAULT": "1px",
   },
   "boxShadow": [Function],
   "colors": Object {
@@ -42,6 +42,7 @@ Object {
       "M400": "#cc6c5b",
       "M600": "#b24a3c",
     },
+    "current": "currentColor",
     "fuschia": Object {
       "400": "#d653c2",
       "600": "#a81897",
