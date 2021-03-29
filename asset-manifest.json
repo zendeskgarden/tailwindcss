@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.14e91ac1.chunk.css",
-    "main.js": "./static/js/main.9df72eb7.chunk.js",
-    "main.js.map": "./static/js/main.9df72eb7.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.427fbeb4.js",
-    "runtime-main.js.map": "./static/js/runtime-main.427fbeb4.js.map",
-    "static/js/2.97045ce2.chunk.js": "./static/js/2.97045ce2.chunk.js",
-    "static/js/2.97045ce2.chunk.js.map": "./static/js/2.97045ce2.chunk.js.map",
+    "main.css": "./static/css/main.726a4f4e.chunk.css",
+    "main.js": "./static/js/main.f50d3ab0.chunk.js",
+    "main.js.map": "./static/js/main.f50d3ab0.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.02cf0f35.js",
+    "runtime-main.js.map": "./static/js/runtime-main.02cf0f35.js.map",
+    "static/js/2.c8456170.chunk.js": "./static/js/2.c8456170.chunk.js",
+    "static/js/2.c8456170.chunk.js.map": "./static/js/2.c8456170.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.14e91ac1.chunk.css.map": "./static/css/main.14e91ac1.chunk.css.map",
-    "static/js/2.97045ce2.chunk.js.LICENSE.txt": "./static/js/2.97045ce2.chunk.js.LICENSE.txt",
+    "static/css/main.726a4f4e.chunk.css.map": "./static/css/main.726a4f4e.chunk.css.map",
+    "static/js/2.c8456170.chunk.js.LICENSE.txt": "./static/js/2.c8456170.chunk.js.LICENSE.txt",
     "static/media/answer-bot.svg": "./static/media/answer-bot.f15ae03e.svg",
     "static/media/wordmark-zendesk.svg": "./static/media/wordmark-zendesk.2e520b61.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.427fbeb4.js",
-    "static/js/2.97045ce2.chunk.js",
-    "static/css/main.14e91ac1.chunk.css",
-    "static/js/main.9df72eb7.chunk.js"
+    "static/js/runtime-main.02cf0f35.js",
+    "static/js/2.c8456170.chunk.js",
+    "static/css/main.726a4f4e.chunk.css",
+    "static/js/main.f50d3ab0.chunk.js"
   ]
 }
