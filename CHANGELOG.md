@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/zendeskgarden/tailwindcss/compare/v1.1.0...v2.0.0) (2021-03-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to Tailwind CSS 2.0 (#60)
+
+### Features
+
+* upgrade to Tailwind CSS 2.0 ([#60](https://github.com/zendeskgarden/tailwindcss/issues/60)) ([8918401](https://github.com/zendeskgarden/tailwindcss/commit/8918401140ba1ba0e811d70d42bc4bc83f16efbd))
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#40](https://github.com/zendeskgarden/tailwindcss/issues/40)) ([83278a3](https://github.com/zendeskgarden/tailwindcss/commit/83278a310acfa4607c608c46d693fc42351f789c))
+* **deps:** update all non-major dependencies ([#50](https://github.com/zendeskgarden/tailwindcss/issues/50)) ([566ad2f](https://github.com/zendeskgarden/tailwindcss/commit/566ad2ff3ac27366e4369fd3097e37719c22b38f))
+* **deps:** update dependency @craco/craco to v6 ([#56](https://github.com/zendeskgarden/tailwindcss/issues/56)) ([94160bd](https://github.com/zendeskgarden/tailwindcss/commit/94160bde519bc144502ed5a4f930bccc93bdffe5))
+* **deps:** update dependency @types/react to v17 ([#57](https://github.com/zendeskgarden/tailwindcss/issues/57)) ([48c416f](https://github.com/zendeskgarden/tailwindcss/commit/48c416f6542e6ce96f2d275bd62e8eefac584664))
+* **deps:** update dependency @types/react-dom to v17 ([#58](https://github.com/zendeskgarden/tailwindcss/issues/58)) ([8edcaa7](https://github.com/zendeskgarden/tailwindcss/commit/8edcaa7587b61161b990606a72ee0a4665b2a7b2))
+* **deps:** update dependency envalid to v7 ([#59](https://github.com/zendeskgarden/tailwindcss/issues/59)) ([f69abfb](https://github.com/zendeskgarden/tailwindcss/commit/f69abfb1c71a7d75125fc9294c71275c5b2a4c2a))
+* **deps:** update dependency polished to v4 ([#44](https://github.com/zendeskgarden/tailwindcss/issues/44)) ([8237a17](https://github.com/zendeskgarden/tailwindcss/commit/8237a17b190ce1c36fd30b08a9755f8096746b8a))
+* **deps:** update dependency react-scripts to v4 ([#45](https://github.com/zendeskgarden/tailwindcss/issues/45)) ([a1fae04](https://github.com/zendeskgarden/tailwindcss/commit/a1fae04869062335144b8cf5209ff224e6e3949f))
+* **deps:** update react monorepo to v17 ([#46](https://github.com/zendeskgarden/tailwindcss/issues/46)) ([61f237e](https://github.com/zendeskgarden/tailwindcss/commit/61f237e0311bfe2adc8323cb5ec94e7102812dc7))
+
 ## [1.1.0](https://github.com/zendeskgarden/tailwindcss/compare/v1.0.2...v1.1.0) (2020-10-20)
 
 
