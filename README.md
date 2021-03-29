@@ -1,4 +1,4 @@
-# Garden Design Tokens - Tailwind CSS [![npm version][npm version badge]][npm version link] [![Build Status][build status badge]][build status link] [![Dependency Status][dependency status badge]][dependency status link]<!-- markdownlint-disable -->
+# Garden Design Tokens [![npm version][npm version badge]][npm version link] [![Build Status][build status badge]][build status link] [![Dependency Status][dependency status badge]][dependency status link]<!-- markdownlint-disable -->
 
 <!-- markdownlint-enable -->
 
@@ -11,13 +11,13 @@
 
 > :seedling: Garden is the design system by Zendesk
 
-A [Tailwind CSS](https://tailwindcss.com/) plugin for generating CSS based on
-[Garden design primitives](https://github.com/zendeskgarden/react-components/tree/main/packages/theming#readme).
+A [Tailwind CSS](https://tailwindcss.com/) plugin for generating CSS based on the
+[Garden theme object](https://garden.zendesk.com/components/theme-object).
 
 ## Installation
 
 ```sh
-npm install --save-dev @zendeskgarden/tailwindcss
+npm install @zendeskgarden/tailwindcss
 ```
 
 ## Usage
@@ -33,15 +33,16 @@ module.exports = {
 
 ### Utility Classes
 
-The simplest way to apply Garden Design Tokens is by using the
+Apply Garden design tokens using
 [Tailwind utility classes](https://tailwindcss.com/docs/utility-first).
 
 ```html
 <img class="rounded-full h-8 w-8 border border-green-600" src="avatar.png" alt="Avatar" />
 ```
 
-To reduce the bundle size impact of these utilities consider using the [PurgeCSS functionality](https://tailwindcss.com/docs/controlling-file-size#removing-unused-css)
-provided within Tailwind.
+Remove unused CSS using Tailwind's
+[purge](https://tailwindcss.com/docs/controlling-file-size#removing-unused-css)
+option.
 
 ### Class Composition with `@apply`
 
@@ -70,13 +71,13 @@ reset.
 module.exports = {
   plugins: [
     require('@zendeskgarden/tailwindcss')({
-      includeBedrock: false // default to true
+      includeBedrock: false // defaults to true
     })
   ]
 };
 ```
 
-## Tooling
+### Tooling
 
 The [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 VS Code plugin provides autocomplete, syntax highlighting, and linting

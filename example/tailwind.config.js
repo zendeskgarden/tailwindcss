@@ -1,9 +1,5 @@
 module.exports = {
   purge: ['./src/**/*.jsx', './src/**/*.tsx'],
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true
-  },
   theme: {
     extend: {
       borderRadius: theme => ({
@@ -22,6 +18,5 @@ module.exports = {
       })
     }
   },
-  variants: {},
   plugins: [require('@zendeskgarden/tailwindcss')]
 };

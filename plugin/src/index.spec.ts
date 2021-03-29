@@ -5,11 +5,11 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+import postcss, { LazyResult } from 'postcss';
 import gardenPlugin from './index';
-import postcss from 'postcss';
 import tailwindCSS from 'tailwindcss';
 
-function processCSS(tailwindConfig: unknown, css: string): postcss.LazyResult {
+function processCSS(tailwindConfig: unknown, css: string): LazyResult {
   return postcss([tailwindCSS(tailwindConfig)]).process(css, {
     from: undefined,
     to: undefined

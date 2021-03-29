@@ -72,8 +72,8 @@ const App: React.FC = () => (
       <p className="mb-5">
         This is a mock implementation using <a href="https://tailwindcss.com/">Tailwind CSS</a> and
         the <a href="https://github.com/zendeskgarden/tailwindcss">@zendeskgarden/tailwindcss</a>{' '}
-        plugin. No custom styles are used in this example, with all styling and states being
-        provided by Garden design tokens.{' '}
+        plugin. No custom styles are used in this example. All styling and states are applied via
+        Garden design tokens.{' '}
         <a href="https://github.com/zendeskgarden/tailwindcss/tree/main/example">View the source</a>{' '}
         for more information.
       </p>

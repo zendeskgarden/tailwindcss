@@ -10,7 +10,7 @@ import { rgba } from 'polished';
 
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
-const BASE = DEFAULT_THEME.space.base as number;
+const BASE = DEFAULT_THEME.space.base;
 
 export const theme = {
   screens: {
@@ -20,6 +20,7 @@ export const theme = {
     xl: DEFAULT_THEME.breakpoints.xl
   },
   colors: {
+    current: 'currentColor',
     transparent: 'transparent',
     ...DEFAULT_THEME.palette
   },
@@ -49,16 +50,16 @@ export const theme = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-return
   borderColor: (localTheme: any): any => ({
     ...localTheme('colors'),
-    default: localTheme('colors.grey.300', 'currentColor')
+    DEFAULT: localTheme('colors.grey.300', 'currentColor')
   }),
   borderRadius: {
     none: '0',
     sm: DEFAULT_THEME.borderRadii.sm,
-    default: DEFAULT_THEME.borderRadii.md,
+    DEFAULT: DEFAULT_THEME.borderRadii.md,
     full: '9999px'
   },
   borderWidth: {
-    default: DEFAULT_THEME.borderWidths.sm,
+    DEFAULT: DEFAULT_THEME.borderWidths.sm,
     0: '0',
     2: '2px',
     3: '3px',
@@ -68,9 +69,9 @@ export const theme = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   boxShadow: (localTheme: any): any => ({
     sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.600'), 0.15)),
-    default: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.600'), 0.15)),
+    DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.600'), 0.15)),
     lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.600'), 0.15)),
-    inner: `inset ${DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35)) as string}`,
+    inner: `inset ${DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35))}`,
     outline: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35)),
     none: 'none'
   }),
