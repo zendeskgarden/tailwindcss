@@ -3,7 +3,7 @@
   "overrides": [
     {
       "files": ["*.ts"],
-      "extends": ["@zendeskgarden/eslint-config/plugins/typescript", "prettier/@typescript-eslint"]
+      "extends": ["@zendeskgarden/eslint-config/plugins/typescript", "prettier"]
     },
     {
       "files": ["*.ts"],
