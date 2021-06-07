@@ -27,7 +27,7 @@
   },
   "types": "dist/typings/index.d.ts",
   "dependencies": {
-    "@zendeskgarden/css-bedrock": "^8.0.1",
+    "@zendeskgarden/css-bedrock": "^9.0.0",
     "@zendeskgarden/react-theming": "^8.35.0",
     "polished": "^4.1.1",
     "postcss": "^8.2.8",
