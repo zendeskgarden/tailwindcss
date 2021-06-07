@@ -552,6 +552,16 @@ exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+  *,:after,:before{
+    box-sizing:border-box;
+  }
+
+  :root{
+    -moz-tab-size:4;
+    -o-tab-size:4;
+    tab-size:4;
+  }
+
   html{
     line-height:1.15;
     -webkit-text-size-adjust:100%;
@@ -559,35 +569,15 @@ exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
 
   body{
     margin:0;
-  }
-
-  main{
-    display:block;
-  }
-
-  h1{
-    font-size:2em;
-    margin:.67em 0;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
   }
 
   hr{
-    box-sizing:content-box;
     height:0;
-    overflow:visible;
-  }
-
-  pre{
-    font-family:monospace,monospace;
-    font-size:1em;
-  }
-
-  a{
-    background-color:transparent;
+    color:inherit;
   }
 
   abbr[title]{
-    border-bottom:none;
-    text-decoration:underline;
     -webkit-text-decoration:underline dotted;
     text-decoration:underline dotted;
   }
@@ -596,8 +586,8 @@ exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
     font-weight:bolder;
   }
 
-  code,kbd,samp{
-    font-family:monospace,monospace;
+  code,kbd,pre,samp{
+    font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
     font-size:1em;
   }
 
@@ -620,18 +610,15 @@ exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
     top:-.5em;
   }
 
-  img{
-    border-style:none;
+  table{
+    text-indent:0;
+    border-color:inherit;
   }
 
   button,input,optgroup,select,textarea{
     font-size:100%;
     line-height:1.15;
     margin:0;
-  }
-
-  button,input{
-    overflow:visible;
   }
 
   button,select{
@@ -642,42 +629,28 @@ exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
     -webkit-appearance:button;
   }
 
-  [type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{
+  ::-moz-focus-inner{
     border-style:none;
     padding:0;
   }
 
-  [type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{
+  :-moz-focusring{
     outline:1px dotted ButtonText;
   }
 
-  fieldset{
-    padding:.35em .75em .625em;
+  :-moz-ui-invalid{
+    box-shadow:none;
   }
 
   legend{
-    box-sizing:border-box;
-    color:inherit;
-    display:table;
-    max-width:100%;
     padding:0;
-    white-space:normal;
   }
 
   progress{
     vertical-align:baseline;
   }
 
-  textarea{
-    overflow:auto;
-  }
-
-  [type=checkbox],[type=radio]{
-    box-sizing:border-box;
-    padding:0;
-  }
-
-  [type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{
+  ::-webkit-inner-spin-button,::-webkit-outer-spin-button{
     height:auto;
   }
 
@@ -686,7 +659,7 @@ exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
     outline-offset:-2px;
   }
 
-  [type=search]::-webkit-search-decoration{
+  ::-webkit-search-decoration{
     -webkit-appearance:none;
   }
 
@@ -695,16 +668,8 @@ exports[`Garden TailwindCSS Plugin Bedrock reset is applied by default 1`] = `
     font:inherit;
   }
 
-  details{
-    display:block;
-  }
-
   summary{
     display:list-item;
-  }
-
-  [hidden],template{
-    display:none;
   }
 
   html{
