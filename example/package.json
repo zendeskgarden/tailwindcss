@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "example",
-  "homepage": "./",
   "version": "0.1.0",
+  "homepage": "./",
   "scripts": {
     "build": "craco build",
     "eject": "craco eject",

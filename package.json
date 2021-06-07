@@ -1,5 +1,14 @@
 {
   "private": true,
+  "scripts": {
+    "format": "prettier-package-json --write && yarn workspaces run format",
+    "postinstall": "husky install",
+    "lint": "markdownlint README.md && yarn workspaces run lint",
+    "prepare": "yarn workspace @zendeskgarden/tailwindcss prepare && yarn workspace example prepare",
+    "start": "yarn workspace example start",
+    "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
+    "test": "yarn workspace @zendeskgarden/tailwindcss test"
+  },
   "workspaces": {
     "packages": [
       "example",
@@ -11,15 +20,6 @@
       "**/jest**",
       "**/react-scripts**"
     ]
-  },
-  "scripts": {
-    "format": "prettier-package-json --write && yarn workspaces run format",
-    "postinstall": "husky install",
-    "lint": "markdownlint README.md && yarn workspaces run lint",
-    "prepare": "yarn workspace @zendeskgarden/tailwindcss prepare && yarn workspace example prepare",
-    "start": "yarn workspace example start",
-    "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
-    "test": "yarn workspace @zendeskgarden/tailwindcss test"
   },
   "devDependencies": {
     "detect-indent": "6.1.0",
