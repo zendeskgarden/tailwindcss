@@ -9,6 +9,7 @@ import { DEFAULT_THEME } from '@zendeskgarden/react-theming';
 import { rgba } from 'polished';
 
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
 
 const BASE = DEFAULT_THEME.space.base;
 
