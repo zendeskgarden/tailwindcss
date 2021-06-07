@@ -17,21 +17,22 @@ interface IPluginOptions {
 const DEFAULT_OPTIONS: IPluginOptions = { includeBedrock: true };
 
 export default plugin.withOptions(
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  (options: IPluginOptions = DEFAULT_OPTIONS) => ({ addBase }: any): void => {
-    if (!options.includeBedrock) {
-      return;
-    }
+  (options: IPluginOptions = DEFAULT_OPTIONS) =>
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    ({ addBase }: any): void => {
+      if (!options.includeBedrock) {
+        return;
+      }
 
-    const gardenBedrockCSS = postcss.parse(
-      fs.readFileSync(require.resolve('@zendeskgarden/css-bedrock'), 'utf8')
-    );
+      const gardenBedrockCSS = postcss.parse(
+        fs.readFileSync(require.resolve('@zendeskgarden/css-bedrock'), 'utf8')
+      );
 
-    /**
-     * Include `@zendeskgarden/css-bedrock` as a global CSS reset
-     */
-    addBase(gardenBedrockCSS);
-  },
+      /**
+       * Include `@zendeskgarden/css-bedrock` as a global CSS reset
+       */
+      addBase(gardenBedrockCSS);
+    },
   (options: IPluginOptions = DEFAULT_OPTIONS) => ({
     theme: gardenTheme, // Overwrite global theme with Garden values
     corePlugins: {
