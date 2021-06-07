@@ -22,7 +22,7 @@
     "@testing-library/user-event": "13.1.9",
     "@types/classnames": "2.3.0",
     "@types/jest": "26.0.23",
-    "@types/node": "12.20.14",
+    "@types/node": "14.17.2",
     "@types/react": "17.0.9",
     "@types/react-dom": "17.0.6",
     "@zendeskgarden/scripts": "0.1.11",
