@@ -48,7 +48,7 @@ export const theme = {
     56: `${BASE * 56}px`,
     64: `${BASE * 64}px`
   },
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-return
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   borderColor: (localTheme: any): any => ({
     ...localTheme('colors'),
     DEFAULT: localTheme('colors.grey.300', 'currentColor')
