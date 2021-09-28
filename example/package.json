@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@craco/craco": "6.3.0",
-    "@fullhuman/postcss-purgecss": "3.0.0",
+    "@fullhuman/postcss-purgecss": "4.0.3",
     "@tailwindcss/postcss7-compat": "2.2.16",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "12.1.1",
