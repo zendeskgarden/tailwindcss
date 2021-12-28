@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.jsx', './src/**/*.tsx'],
+  content: ['./src/**/*.{jsx,tsx}'],
   theme: {
     extend: {
       borderRadius: theme => ({
