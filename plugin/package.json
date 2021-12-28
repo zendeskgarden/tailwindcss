@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.16.5",
-    "@rollup/plugin-commonjs": "20.0.0",
+    "@rollup/plugin-commonjs": "21.0.1",
     "@rollup/plugin-node-resolve": "13.1.1",
     "@types/jest": "27.0.3",
     "@types/node": "14.18.3",
