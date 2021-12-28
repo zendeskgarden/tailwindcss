@@ -24,10 +24,10 @@
   "devDependencies": {
     "detect-indent": "6.1.0",
     "detect-newline": "3.1.0",
-    "husky": "7.0.2",
-    "markdownlint-cli": "0.28.1",
+    "husky": "7.0.4",
+    "markdownlint-cli": "0.30.0",
     "prettier-package-json": "2.6.0",
-    "standard-version": "9.3.1",
+    "standard-version": "9.3.2",
     "stringify-package": "1.0.1"
   }
 }
