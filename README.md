@@ -40,10 +40,6 @@ Apply Garden design tokens using
 <img class="rounded-full h-8 w-8 border border-green-600" src="avatar.png" alt="Avatar" />
 ```
 
-Remove unused CSS using Tailwind's
-[purge](https://tailwindcss.com/docs/controlling-file-size#removing-unused-css)
-option.
-
 ### Class Composition with `@apply`
 
 Tailwind provides several [PostCSS directives](https://tailwindcss.com/docs/functions-and-directives/)
