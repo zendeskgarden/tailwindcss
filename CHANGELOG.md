@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/zendeskgarden/tailwindcss/compare/v2.0.0...v3.0.0) (2021-12-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** bumps `tailwindcss` peer dependency from v2.0 to 3.0.
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Jonathan Zempel <jzempel@gmail.com>
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#68](https://github.com/zendeskgarden/tailwindcss/issues/68)) ([e79ac63](https://github.com/zendeskgarden/tailwindcss/commit/e79ac639a93badcb28fa7808569323c84c599748))
+* **deps:** update all non-major dependencies ([#77](https://github.com/zendeskgarden/tailwindcss/issues/77)) ([5288eeb](https://github.com/zendeskgarden/tailwindcss/commit/5288eeb1debc3b2ebfb445b9c38d1a84d3e7a029))
+* **deps:** update all non-major dependencies ([#78](https://github.com/zendeskgarden/tailwindcss/issues/78)) ([85f528e](https://github.com/zendeskgarden/tailwindcss/commit/85f528e281aaecafc2192f2a87afa0b1ac2f81d5))
+* **deps:** update all non-major dependencies ([#84](https://github.com/zendeskgarden/tailwindcss/issues/84)) ([b4a39ad](https://github.com/zendeskgarden/tailwindcss/commit/b4a39ada856286d9e1188bc1817fbabf99fe02ef))
+* **deps:** update all non-major dependencies ([#93](https://github.com/zendeskgarden/tailwindcss/issues/93)) ([ff5d401](https://github.com/zendeskgarden/tailwindcss/commit/ff5d40193cdf775cd63c3b9f0531fc067fe2ef36))
+* **deps:** update dependency @testing-library/react to v12 ([#81](https://github.com/zendeskgarden/tailwindcss/issues/81)) ([c5d4fad](https://github.com/zendeskgarden/tailwindcss/commit/c5d4fad73c301c09e79acc26ad45c38c8810ddc3))
+* **deps:** update dependency @testing-library/user-event to v13 ([#65](https://github.com/zendeskgarden/tailwindcss/issues/65)) ([98a9482](https://github.com/zendeskgarden/tailwindcss/commit/98a9482fffe787dd4afbf9e0ba8efb075e3140e2))
+* **deps:** update dependency @types/node to v14 ([#74](https://github.com/zendeskgarden/tailwindcss/issues/74)) ([9b4d6db](https://github.com/zendeskgarden/tailwindcss/commit/9b4d6db8d78fb49c1b48642de949eb962709dc5a))
+* **deps:** update dependency @zendeskgarden/css-bedrock to v9 ([#75](https://github.com/zendeskgarden/tailwindcss/issues/75)) ([865a6c6](https://github.com/zendeskgarden/tailwindcss/commit/865a6c68e77c615aabf990400c25f5a17ec5d0f7))
+* **deps:** update dependency postcss to v7.0.36 [security] ([#67](https://github.com/zendeskgarden/tailwindcss/issues/67)) ([4d86e6d](https://github.com/zendeskgarden/tailwindcss/commit/4d86e6db4f2ad39d34c931d98b54c3fdec1e21f3))
+
+
+* **deps:** update dependency tailwindcss to v3 ([#100](https://github.com/zendeskgarden/tailwindcss/issues/100)) ([287dfca](https://github.com/zendeskgarden/tailwindcss/commit/287dfcaa21c7a7a8e012cc41817681dbf5467887))
+
 ## [2.0.0](https://github.com/zendeskgarden/tailwindcss/compare/v1.1.0...v2.0.0) (2021-03-29)
 
 
