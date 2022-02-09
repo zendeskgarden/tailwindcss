@@ -1,3 +1,4 @@
 module.exports = {
-  plugins: [require('./dist/index')]
+  plugins: [require('./dist/index')],
+  safelist: [{ pattern: /.*/ }]
 };
