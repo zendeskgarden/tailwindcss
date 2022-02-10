@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/zendeskgarden/tailwindcss/compare/v3.0.0...v3.0.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* restore styles.css package dist ([#114](https://github.com/zendeskgarden/tailwindcss/issues/114)) ([34c6019](https://github.com/zendeskgarden/tailwindcss/commit/34c60192e76ee318de7a7b08e44ce0c74c79d1f7))
+
 ## [3.0.0](https://github.com/zendeskgarden/tailwindcss/compare/v2.0.0...v3.0.0) (2021-12-28)
 
 
