@@ -46,7 +46,7 @@
     "@types/node": "16.11.25",
     "@typescript-eslint/eslint-plugin": "5.12.0",
     "@typescript-eslint/parser": "5.12.0",
-    "@zendeskgarden/eslint-config": "26.0.0",
+    "@zendeskgarden/eslint-config": "27.0.0",
     "@zendeskgarden/scripts": "1.4.0",
     "eslint": "8.9.0",
     "eslint-config-prettier": "8.3.0",
