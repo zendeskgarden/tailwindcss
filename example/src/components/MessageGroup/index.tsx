@@ -5,7 +5,7 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-import React from 'react';
+import React, { ReactNode } from 'react';
 import classNames from 'classnames';
 
 import styles from './messagegroup.module.css';
@@ -18,6 +18,7 @@ export const MessageGroup: React.FC<{
   type: MESSAGE_TYPE;
   title?: string;
   avatar?: React.ReactElement;
+  children: ReactNode;
 }> = ({ children, type, title, avatar }) => (
   <MessageGroupContext.Provider value={type}>
     <div
