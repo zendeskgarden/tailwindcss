@@ -25,6 +25,7 @@ export const theme = {
     transparent: 'transparent',
     ...DEFAULT_THEME.palette
   },
+  /* eslint-disable @typescript-eslint/naming-convention */
   spacing: {
     px: '1px',
     0: '0',
@@ -48,6 +49,7 @@ export const theme = {
     56: `${BASE * 56}px`,
     64: `${BASE * 64}px`
   },
+  /* eslint-enable @typescript-eslint/naming-convention */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   borderColor: (localTheme: any): any => ({
     ...localTheme('colors'),
@@ -61,11 +63,13 @@ export const theme = {
   },
   borderWidth: {
     DEFAULT: DEFAULT_THEME.borderWidths.sm,
+    /* eslint-disable @typescript-eslint/naming-convention */
     0: '0',
     2: '2px',
     3: '3px',
     4: '4px',
     8: '8px'
+    /* eslint-enable @typescript-eslint/naming-convention */
   },
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   boxShadow: (localTheme: any): any => ({
@@ -86,8 +90,10 @@ export const theme = {
     base: DEFAULT_THEME.fontSizes.md,
     lg: DEFAULT_THEME.fontSizes.lg,
     xl: DEFAULT_THEME.fontSizes.xl,
+    /* eslint-disable @typescript-eslint/naming-convention */
     '2xl': DEFAULT_THEME.fontSizes.xxl,
     '3xl': DEFAULT_THEME.fontSizes.xxxl
+    /* eslint-enable @typescript-eslint/naming-convention */
   },
   fontWeight: {
     thin: DEFAULT_THEME.fontWeights.thin,
@@ -106,7 +112,9 @@ export const theme = {
     md: DEFAULT_THEME.lineHeights.md,
     lg: DEFAULT_THEME.lineHeights.lg,
     xl: DEFAULT_THEME.lineHeights.xl,
+    /* eslint-disable @typescript-eslint/naming-convention */
     '2xl': DEFAULT_THEME.lineHeights.xxl,
     '3xl': DEFAULT_THEME.lineHeights.xxxl
+    /* eslint-enable @typescript-eslint/naming-convention */
   }
 };
