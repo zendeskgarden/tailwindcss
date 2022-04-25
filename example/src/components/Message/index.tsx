@@ -5,12 +5,15 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-import React, { ButtonHTMLAttributes, useContext } from 'react';
+import React, { ButtonHTMLAttributes, useContext, ReactNode } from 'react';
 import classNames from 'classnames';
 import { MessageGroupContext } from '../MessageGroup';
 import styles from './message.module.css';
 
-export const Message: React.FC<{ actions?: React.ReactElement }> = ({ children, actions }) => {
+export const Message: React.FC<{ actions?: React.ReactElement; children: ReactNode }> = ({
+  children,
+  actions
+}) => {
   const messageType = useContext(MessageGroupContext);
 
   return (

@@ -5,10 +5,10 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-import React, { useLayoutEffect, useRef } from 'react';
+import React, { useLayoutEffect, useRef, ReactNode } from 'react';
 import styles from './conversationlog.module.css';
 
-export const ConversationLog: React.FC = ({ children }) => {
+export const ConversationLog: React.FC<{ children: ReactNode }> = ({ children }) => {
   const logRef = useRef<HTMLDivElement>(null);
 
   /** Scroll to bottom of log on first render */
