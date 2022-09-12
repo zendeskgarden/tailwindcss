@@ -33,7 +33,7 @@
     "markdownlint": "0.25.1",
     "path": "0.12.7",
     "postcss": "8.4.12",
-    "postcss-focus-visible": "6.0.4",
+    "postcss-focus-visible": "7.1.0",
     "prettier-package-json": "2.6.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
