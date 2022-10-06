@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.b8fd3aa3.css",
-    "main.js": "./static/js/main.a9aed766.js",
+    "main.css": "./static/css/main.e29403c8.css",
+    "main.js": "./static/js/main.f353c78e.js",
     "static/media/wordmark-zendesk.svg": "./static/media/wordmark-zendesk.2e520b6142a86ddf8afa01da940ce731.svg",
     "index.html": "./index.html",
     "static/media/answer-bot.svg": "./static/media/answer-bot.f15ae03e61929201d54bd0d3d8e51c94.svg",
-    "main.b8fd3aa3.css.map": "./static/css/main.b8fd3aa3.css.map",
-    "main.a9aed766.js.map": "./static/js/main.a9aed766.js.map"
+    "main.e29403c8.css.map": "./static/css/main.e29403c8.css.map",
+    "main.f353c78e.js.map": "./static/js/main.f353c78e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8fd3aa3.css",
-    "static/js/main.a9aed766.js"
+    "static/css/main.e29403c8.css",
+    "static/js/main.f353c78e.js"
   ]
 }
