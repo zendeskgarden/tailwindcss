@@ -16,9 +16,10 @@ interface IPluginOptions {
 
 const DEFAULT_OPTIONS: IPluginOptions = { includeBedrock: true };
 
+/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-return */
+
 export default plugin.withOptions(
   (options: IPluginOptions = DEFAULT_OPTIONS) =>
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ({ addBase }: any): void => {
       if (!options.includeBedrock) {
         return;
@@ -33,10 +34,11 @@ export default plugin.withOptions(
        */
       addBase(gardenBedrockCSS);
     },
-  (options: IPluginOptions = DEFAULT_OPTIONS) => ({
-    theme: gardenTheme, // Overwrite global theme with Garden values
-    corePlugins: {
-      preflight: !options.includeBedrock // Disable Tailwind global resets as we provide our own
-    }
-  })
+  (options: IPluginOptions = DEFAULT_OPTIONS) =>
+    ({
+      theme: gardenTheme, // Overwrite global theme with Garden values
+      corePlugins: {
+        preflight: !options.includeBedrock // Disable Tailwind global resets as we provide our own
+      }
+    } as any)
 ) as (options?: IPluginOptions) => void;
