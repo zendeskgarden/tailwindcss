@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Theme matches expected values 1`] = `
-Object {
+{
   "borderColor": [Function],
-  "borderRadius": Object {
+  "borderRadius": {
     "DEFAULT": "4px",
     "full": "9999px",
     "none": "0",
     "sm": "2px",
   },
-  "borderWidth": Object {
+  "borderWidth": {
     "0": "0",
     "2": "2px",
     "3": "3px",
@@ -18,15 +18,15 @@ Object {
     "DEFAULT": "1px",
   },
   "boxShadow": [Function],
-  "colors": Object {
-    "azure": Object {
+  "colors": {
+    "azure": {
       "400": "#3091ec",
       "600": "#1371d6",
       "M400": "#5f8dcf",
       "M600": "#3a70b2",
     },
     "black": "#000",
-    "blue": Object {
+    "blue": {
       "100": "#edf7ff",
       "200": "#cee2f2",
       "300": "#adcce4",
@@ -36,20 +36,20 @@ Object {
       "700": "#144a75",
       "800": "#0f3554",
     },
-    "crimson": Object {
+    "crimson": {
       "400": "#e34f32",
       "600": "#c72a1c",
       "M400": "#cc6c5b",
       "M600": "#b24a3c",
     },
     "current": "currentColor",
-    "fuschia": Object {
+    "fuschia": {
       "400": "#d653c2",
       "600": "#a81897",
       "M400": "#cf62a8",
       "M600": "#a8458c",
     },
-    "green": Object {
+    "green": {
       "100": "#edf8f4",
       "200": "#d1e8df",
       "300": "#aecfc2",
@@ -59,7 +59,7 @@ Object {
       "700": "#186146",
       "800": "#0b3b29",
     },
-    "grey": Object {
+    "grey": {
       "100": "#f8f9f9",
       "200": "#e9ebed",
       "300": "#d8dcde",
@@ -69,7 +69,7 @@ Object {
       "700": "#49545c",
       "800": "#2f3941",
     },
-    "kale": Object {
+    "kale": {
       "100": "#f5fcfc",
       "200": "#daeded",
       "300": "#bdd9d7",
@@ -79,43 +79,43 @@ Object {
       "700": "#03363d",
       "800": "#012b30",
     },
-    "lemon": Object {
+    "lemon": {
       "400": "#ffd424",
       "600": "#ffbb10",
       "M400": "#e7a500",
       "M600": "#c38f00",
     },
-    "lime": Object {
+    "lime": {
       "400": "#43b324",
       "600": "#2e8200",
       "M400": "#519e2d",
       "M600": "#47782c",
     },
-    "mint": Object {
+    "mint": {
       "400": "#00a656",
       "600": "#058541",
       "M400": "#299c66",
       "M600": "#2e8057",
     },
-    "orange": Object {
+    "orange": {
       "400": "#de701d",
       "600": "#bf5000",
       "M400": "#d4772c",
       "M600": "#b35827",
     },
-    "pink": Object {
+    "pink": {
       "400": "#ec4d63",
       "600": "#d42054",
       "M400": "#d57287",
       "M600": "#b23a5d",
     },
-    "purple": Object {
+    "purple": {
       "400": "#b552e2",
       "600": "#6a27b8",
       "M400": "#b072cc",
       "M600": "#9358b0",
     },
-    "red": Object {
+    "red": {
       "100": "#fff0f1",
       "200": "#f5d5d8",
       "300": "#f5b5ba",
@@ -125,13 +125,13 @@ Object {
       "700": "#8c232c",
       "800": "#681219",
     },
-    "royal": Object {
+    "royal": {
       "400": "#5d7df5",
       "600": "#3353e2",
       "M400": "#7986d8",
       "M600": "#4b61c3",
     },
-    "teal": Object {
+    "teal": {
       "400": "#02a191",
       "600": "#028079",
       "M400": "#2d9e8f",
@@ -139,7 +139,7 @@ Object {
     },
     "transparent": "transparent",
     "white": "#fff",
-    "yellow": Object {
+    "yellow": {
       "100": "#fff7ed",
       "200": "#ffeedb",
       "300": "#fed6a8",
@@ -150,30 +150,30 @@ Object {
       "800": "#703815",
     },
   },
-  "fontFamily": Object {
-    "mono": Array [
+  "fontFamily": {
+    "mono": [
       "SFMono-Regular",
       "Consolas",
-      "\\"Liberation Mono\\"",
+      ""Liberation Mono"",
       "Menlo",
       "Courier",
       "monospace",
     ],
-    "sans": Array [
+    "sans": [
       "system-ui",
       "-apple-system",
       "BlinkMacSystemFont",
-      "\\"Segoe UI\\"",
+      ""Segoe UI"",
       "Roboto",
       "Oxygen-Sans",
       "Ubuntu",
       "Cantarell",
-      "\\"Helvetica Neue\\"",
+      ""Helvetica Neue"",
       "Arial",
       "sans-serif",
     ],
   },
-  "fontSize": Object {
+  "fontSize": {
     "2xl": "26px",
     "3xl": "36px",
     "base": "14px",
@@ -182,7 +182,7 @@ Object {
     "xl": "22px",
     "xs": "10px",
   },
-  "fontWeight": Object {
+  "fontWeight": {
     "black": 900,
     "bold": 700,
     "extrabold": 800,
@@ -193,7 +193,7 @@ Object {
     "semibold": 600,
     "thin": 100,
   },
-  "lineHeight": Object {
+  "lineHeight": {
     "2xl": "32px",
     "3xl": "44px",
     "lg": "24px",
@@ -202,13 +202,13 @@ Object {
     "sm": "16px",
     "xl": "28px",
   },
-  "screens": Object {
+  "screens": {
     "lg": "992px",
     "md": "768px",
     "sm": "576px",
     "xl": "1200px",
   },
-  "spacing": Object {
+  "spacing": {
     "0": "0",
     "1": "4px",
     "10": "40px",
