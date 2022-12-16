@@ -1,5 +1,3 @@
-/// <reference types="react-scripts" />
-
 /**
  * Copyright Zendesk, Inc.
  *
@@ -7,4 +5,5 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-declare module '*.css';
+/// <reference types="vite/client" />
+/// <reference types="vite-plugin-svgr/client" />

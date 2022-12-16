@@ -1,0 +1,12 @@
+{
+  "extends": ["@zendeskgarden", "@zendeskgarden/eslint-config/plugins/notice", "prettier"],
+  "parserOptions": {
+    "requireConfigFile": false
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["@zendeskgarden/eslint-config/plugins/typescript", "prettier"]
+    }
+  ]
+}
