@@ -6,15 +6,13 @@
   "scripts": {
     "prebuild": "tsc",
     "build": "vite build",
-    "dev": "vite",
     "format": "prettier-package-json --write && prettier --loglevel warn '**/*.{ts,tsx,js,.cjs,json,md}' '!build/**' --write",
     "lint": "yarn lint:js && yarn lint:md",
     "lint:js": "eslint . --ext js,ts,tsx",
     "lint:md": "markdownlint README.md",
     "prepare": "yarn build",
-    "start": "yarn dev",
-    "test:ci": "yarn format --check && yarn lint",
-    "preview": "vite preview"
+    "start": "vite --open",
+    "test:ci": "yarn format --check && yarn lint"
   },
   "dependencies": {
     "classnames": "2.3.2",
