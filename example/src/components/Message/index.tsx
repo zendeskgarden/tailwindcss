@@ -5,7 +5,7 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-import React, { ButtonHTMLAttributes, useContext, ReactNode } from 'react';
+import React, { ButtonHTMLAttributes, ReactNode, useContext } from 'react';
 import classNames from 'classnames';
 import { MessageGroupContext } from '../MessageGroup';
 import styles from './message.module.css';
