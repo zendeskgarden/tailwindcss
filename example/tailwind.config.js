@@ -5,6 +5,8 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+const gardenTailwindCSSPlugin = require('@zendeskgarden/tailwindcss');
+
 module.exports = {
   content: ['./src/**/*.{jsx,tsx}'],
   theme: {
@@ -25,5 +27,5 @@ module.exports = {
       })
     }
   },
-  plugins: [require('@zendeskgarden/tailwindcss')]
+  plugins: [gardenTailwindCSSPlugin]
 };

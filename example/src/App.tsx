@@ -8,11 +8,11 @@
 import React from 'react';
 import { ReactComponent as WordmarkAnswerBot } from '@zendeskgarden/svg-icons/src/26/answer-bot.svg';
 
-import { Widget } from './components/Widget';
-import { Textarea } from './components/Textarea';
+import { Action, Message } from './components/Message';
 import { ConversationLog } from './components/ConversationLog';
 import { MessageGroup } from './components/MessageGroup';
-import { Action, Message } from './components/Message';
+import { Textarea } from './components/Textarea';
+import { Widget } from './components/Widget';
 
 import styles from './app.module.css';
 

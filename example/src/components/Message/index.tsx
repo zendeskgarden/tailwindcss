@@ -7,7 +7,9 @@
 
 import React, { ButtonHTMLAttributes, ReactNode, useContext } from 'react';
 import classNames from 'classnames';
+
 import { MessageGroupContext } from '../MessageGroup';
+
 import styles from './message.module.css';
 
 export const Message: React.FC<{ actions?: React.ReactElement; children: ReactNode }> = ({

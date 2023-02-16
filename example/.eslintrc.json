@@ -8,5 +8,8 @@
       "files": ["*.ts", "*.tsx"],
       "extends": ["@zendeskgarden/eslint-config/plugins/typescript", "prettier"]
     }
-  ]
+  ],
+  "rules": {
+    "sort-imports": [1, { "allowSeparatedGroups": true }]
+  }
 }
