@@ -8,10 +8,7 @@
 module.exports = {
   plugins: {
     tailwindcss: {},
-    'postcss-focus-visible': {
-      preserve: false,
-      replaceWith: ':global(.focus-visible)' // necessary for CSS modules support
-    },
+    'postcss-focus-visible': {},
     autoprefixer: {}
   }
 };
