@@ -72,8 +72,12 @@ export const theme = {
     sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.600'), 0.15)),
     DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.600'), 0.15)),
     lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.600'), 0.15)),
-    inner: `inset ${DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35))}`,
-    outline: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.blue.600'), 0.35)),
+    inner: `inset ${DEFAULT_THEME.shadows.xs(
+      DEFAULT_THEME.colors.background
+    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.600'))}`,
+    outline: `${DEFAULT_THEME.shadows.xs(
+      DEFAULT_THEME.colors.background
+    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.600'))}`,
     none: 'none'
   }),
   fontFamily: {
