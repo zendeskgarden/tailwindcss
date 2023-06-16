@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/zendeskgarden/tailwindcss/compare/v3.0.1...v3.1.0) (2023-06-16)
+
+
+### Features
+
+* **plugin:** update focus ring styles ([#164](https://github.com/zendeskgarden/tailwindcss/issues/164)) ([143a0fe](https://github.com/zendeskgarden/tailwindcss/commit/143a0fe4a8c562d54c904cb76e0e1a4983e57354))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @testing-library/react to v13 ([#124](https://github.com/zendeskgarden/tailwindcss/issues/124)) ([37b2ec1](https://github.com/zendeskgarden/tailwindcss/commit/37b2ec1170255841ea3d50675cfebcd6052b1bbf))
+* **deps:** update dependency @testing-library/user-event to v14 ([#123](https://github.com/zendeskgarden/tailwindcss/issues/123)) ([a97a617](https://github.com/zendeskgarden/tailwindcss/commit/a97a617eded2962492e74eafc5d3fbc5d12f60c1))
+* **deps:** update dependency @types/react to v18 ([#125](https://github.com/zendeskgarden/tailwindcss/issues/125)) ([59d1d1d](https://github.com/zendeskgarden/tailwindcss/commit/59d1d1d6dedefbd6e806ca1074898f7fcfb6b295))
+* **deps:** update dependency @types/react-dom to v18 ([#126](https://github.com/zendeskgarden/tailwindcss/issues/126)) ([903279c](https://github.com/zendeskgarden/tailwindcss/commit/903279cca5a086ef7e0501c916f1189c99ec8222))
+* **deps:** update dependency postcss-focus-visible to v7 ([#136](https://github.com/zendeskgarden/tailwindcss/issues/136)) ([a016135](https://github.com/zendeskgarden/tailwindcss/commit/a016135e7d005ea8334ceb55d9bc445ab4819353))
+* **deps:** update react monorepo to v18 ([#127](https://github.com/zendeskgarden/tailwindcss/issues/127)) ([9563c8c](https://github.com/zendeskgarden/tailwindcss/commit/9563c8cb2c7d6e6f675a92966f794b414911a34c))
+* **postcss-focus-visible:** correct breaking focus ([#163](https://github.com/zendeskgarden/tailwindcss/issues/163)) ([8e99cdb](https://github.com/zendeskgarden/tailwindcss/commit/8e99cdb19c8d6e60fe27a03fded3057b552babf1))
+
 ### [3.0.1](https://github.com/zendeskgarden/tailwindcss/compare/v3.0.0...v3.0.1) (2022-02-10)
 
 
