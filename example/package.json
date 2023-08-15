@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "tsc",
     "build": "vite build",
-    "format": "prettier-package-json --write && prettier --loglevel warn '**/*.{ts,tsx,js,.cjs,json,md}' '!build/**' --write",
+    "format": "prettier-package-json --write && prettier --loglevel warn '**/*.{ts,tsx,js,cjs,mjs,json,md}' '!build/**' --write",
     "lint": "yarn lint:js && yarn lint:md",
     "lint:js": "eslint . --ext js,mjs,ts,tsx",
     "lint:md": "markdownlint README.md",
