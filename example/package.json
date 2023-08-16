@@ -6,20 +6,20 @@
   "scripts": {
     "prebuild": "tsc",
     "build": "vite build",
-    "format": "prettier-package-json --write && prettier --loglevel warn '**/*.{ts,tsx,js,.cjs,json,md}' '!build/**' --write",
+    "format": "prettier-package-json --write && prettier --loglevel warn '**/*.{ts,tsx,js,cjs,mjs,json,md}' '!build/**' --write",
     "lint": "yarn lint:js && yarn lint:md",
-    "lint:js": "eslint . --ext js,ts,tsx",
+    "lint:js": "eslint . --ext js,mjs,ts,tsx",
     "lint:md": "markdownlint README.md",
     "prepare": "yarn build",
     "start": "vite --open",
     "test:ci": "yarn format --check && yarn lint"
   },
   "dependencies": {
+    "@zendeskgarden/tailwindcss": "3.1.1",
     "classnames": "2.3.2",
     "focus-visible": "5.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@zendeskgarden/tailwindcss": "3.1.1"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.22.9",
@@ -29,9 +29,9 @@
     "@typescript-eslint/parser": "6.1.0",
     "@vitejs/plugin-react-swc": "3.3.2",
     "@zendeskgarden/eslint-config": "34.0.0",
-    "@zendeskgarden/scripts": "1.4.2",
+    "@zendeskgarden/scripts": "2.0.1",
     "@zendeskgarden/svg-icons": "6.33.0",
-    "@zendeskgarden/tailwindcss": "3.1.0",
+    "@zendeskgarden/tailwindcss": "3.1.1",
     "autoprefixer": "10.4.14",
     "envalid": "7.3.1",
     "eslint": "8.45.0",
