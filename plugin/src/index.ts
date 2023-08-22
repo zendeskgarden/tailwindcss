@@ -40,5 +40,5 @@ export default plugin.withOptions(
       corePlugins: {
         preflight: !options.includeBedrock // Disable Tailwind global resets as we provide our own
       }
-    } as any)
+    }) as any
 ) as (options?: IPluginOptions) => void;

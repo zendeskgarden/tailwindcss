@@ -18,7 +18,7 @@
     "build:plugin": "rollup -c rollup.config.js",
     "build:styles": "postcss src/styles.css -o dist/styles.css",
     "format": "prettier-package-json --write && yarn format:all --write",
-    "format:all": "prettier --loglevel warn '**/*.{js,ts,json,md}' '!CHANGELOG.md' '!dist/**'",
+    "format:all": "prettier --log-level warn '**/*.{js,ts,json,md}' '!CHANGELOG.md' '!dist/**'",
     "lint": "eslint src/ --ext js,ts --max-warnings 0",
     "prepare": "yarn build",
     "prepublishOnly": "cp ../LICENSE.md ../README.md ./",
