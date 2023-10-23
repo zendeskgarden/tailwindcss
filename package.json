@@ -23,7 +23,7 @@
   },
   "resolutions": {
     "string-width": "4.2.3",
-    "wrap-ansi": "7.0.0"
+    "wrap-ansi": "8.1.0"
   },
   "devDependencies": {
     "detect-indent": "6.1.0",
