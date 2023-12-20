@@ -22,15 +22,15 @@ All changes are recorded in the [changelog](../CHANGELOG.md) file.
 
 ## Development Workflow
 
-Before you start, be sure [yarn](https://yarnpkg.com/en/) is installed
-on your system. After you clone this repo, run `yarn` to install
-dependencies needed for development. After installation, the following
-commands are available:
+Before you start, be sure [npm](https://www.npmjs.com/package/npm) is installed
+on your system. After you clone this repo, run `npm install` to install
+dependencies needed for development. After installation, the following commands
+are available:
 
-- `yarn test` to run package tests.
-- `yarn lint` to enforce consistent code conventions. Note this is run
+- `npm test` to run package tests.
+- `npm run lint` to enforce consistent code conventions. Note this is run
   as a git `pre-commit` hook.
-- `yarn format` to enforce code style with opinionated formats. Note
+- `npm run format` to enforce code style with opinionated formats. Note
   this is run as a git `pre-commit` hook.
 
 ## Pull Request Workflow

@@ -9,8 +9,8 @@ import commonjs from '@rollup/plugin-commonjs';
 import del from 'rollup-plugin-delete';
 import nodePolyfills from 'rollup-plugin-node-polyfills';
 import nodeResolve from '@rollup/plugin-node-resolve';
+import typescript from '@rollup/plugin-typescript';
 import pkg from './package.json';
-import typescript from 'rollup-plugin-typescript2';
 
 export default {
   input: ['src/index.ts'],
@@ -32,9 +32,7 @@ export default {
     nodePolyfills(),
     nodeResolve(),
     commonjs(),
-    typescript({
-      useTsconfigDeclarationDir: true
-    })
+    typescript()
   ],
   output: [{ dir: 'dist', format: 'cjs', exports: 'default' }]
 };
