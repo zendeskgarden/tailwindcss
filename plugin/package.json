@@ -14,16 +14,16 @@
     "dist"
   ],
   "scripts": {
-    "build": "yarn build:plugin && yarn build:styles",
+    "build": "npm run build:plugin && npm run build:styles",
     "build:plugin": "rollup -c rollup.config.js",
     "build:styles": "postcss src/styles.css -o dist/styles.css",
-    "format": "prettier-package-json --write && yarn format:all --write",
+    "format": "prettier-package-json --write && npm run -- format:all --write",
     "format:all": "prettier --log-level warn '**/*.{js,ts,json,md}' '!CHANGELOG.md' '!dist/**'",
     "lint": "eslint src/ --ext js,ts --max-warnings 0",
-    "prepare": "yarn build",
+    "prepare": "npm run build",
     "prepublishOnly": "cp ../LICENSE.md ../README.md ./",
     "test": "jest",
-    "test:ci": "prettier-package-json --list-different && yarn format:all --check && yarn lint && yarn test"
+    "test:ci": "prettier-package-json --list-different && npm run -- format:all --check && npm run lint && npm test"
   },
   "types": "dist/typings/index.d.ts",
   "dependencies": {
@@ -42,6 +42,7 @@
     "@babel/eslint-parser": "7.23.3",
     "@rollup/plugin-commonjs": "25.0.7",
     "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-typescript": "11.1.5",
     "@types/jest": "29.5.11",
     "@types/node": "18.19.3",
     "@typescript-eslint/eslint-plugin": "6.15.0",
@@ -61,7 +62,6 @@
     "rollup": "2.79.1",
     "rollup-plugin-delete": "2.0.0",
     "rollup-plugin-node-polyfills": "0.2.1",
-    "rollup-plugin-typescript2": "0.36.0",
     "tailwindcss": "3.4.0",
     "ts-jest": "29.1.1",
     "tslib": "2.6.2",
