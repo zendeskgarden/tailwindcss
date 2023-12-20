@@ -39,7 +39,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-notice": "0.9.10",
     "markdownlint-cli": "0.38.0",
-    "postcss": "8.4.28",
+    "postcss": "8.4.31",
     "postcss-focus-visible": "9.0.1",
     "prettier": "3.1.1",
     "prettier-package-json": "2.8.0",
