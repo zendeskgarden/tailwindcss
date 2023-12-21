@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import { ReactComponent as WordmarkAnswerBot } from '@zendeskgarden/svg-icons/src/26/answer-bot.svg';
+import WordmarkAnswerBot from '@zendeskgarden/svg-icons/src/26/answer-bot.svg?react';
 
 import { Action, Message } from './components/Message';
 import { ConversationLog } from './components/ConversationLog';
