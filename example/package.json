@@ -33,7 +33,7 @@
     "@zendeskgarden/svg-icons": "7.0.0",
     "@zendeskgarden/tailwindcss": "3.1.1",
     "autoprefixer": "10.4.16",
-    "envalid": "7.3.1",
+    "envalid": "8.0.0",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-node": "11.1.0",
