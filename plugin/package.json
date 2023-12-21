@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "npm run build:plugin && npm run build:styles",
-    "build:plugin": "rollup -c rollup.config.js",
+    "build:plugin": "rollup -c rollup.config.js --bundleConfigAsCjs",
     "build:styles": "postcss src/styles.css -o dist/styles.css",
     "format": "prettier-package-json --write && npm run -- format:all --write",
     "format:all": "prettier --log-level warn '**/*.{js,ts,json,md}' '!CHANGELOG.md' '!dist/**'",
