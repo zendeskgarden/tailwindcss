@@ -20,7 +20,6 @@
     "format": "prettier-package-json --write && npm run -- format:all --write",
     "format:all": "prettier --log-level warn '**/*.{js,ts,json,md}' '!CHANGELOG.md' '!dist/**'",
     "lint": "eslint src/ --ext js,ts --max-warnings 0",
-    "prepare": "npm run build",
     "prepublishOnly": "cp ../LICENSE.md ../README.md ./",
     "test": "jest",
     "test:ci": "prettier-package-json --list-different && npm run -- format:all --check && npm run lint && npm test"

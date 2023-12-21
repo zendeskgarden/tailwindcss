@@ -10,7 +10,6 @@
     "lint": "npm run lint:js && npm run lint:md",
     "lint:js": "eslint . --ext js,mjs,ts,tsx",
     "lint:md": "markdownlint README.md",
-    "prepare": "npm run build",
     "start": "vite --open",
     "test:ci": "npm run -- format --check && npm run lint"
   },
