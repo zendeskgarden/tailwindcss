@@ -25,7 +25,6 @@ jobs:
     steps:
       - checkout
       - node/install-packages:
-          pkg-manager: yarn
           cache-version: '{{ .Environment.CACHE_VERSION }}'
       - persist_to_workspace:
           root: *workspace_root
@@ -35,7 +34,7 @@ jobs:
     <<: *executor
     steps:
       - *attach_workspace
-      - run: yarn workspaces run test:ci
+      - run: npm run test:ci --workspaces
 
   deploy:
     <<: *executor
@@ -50,7 +49,7 @@ jobs:
     steps:
       - *attach_workspace
       - run: npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN
-      - run: yarn workspace @zendeskgarden/tailwindcss publish
+      - run: npm publish --workspace=@zendeskgarden/tailwindcss
 
 workflows:
   main:
