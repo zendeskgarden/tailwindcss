@@ -15,12 +15,11 @@
   ],
   "scripts": {
     "build": "npm run build:plugin && npm run build:styles",
-    "build:plugin": "rollup -c rollup.config.js",
+    "build:plugin": "rollup -c rollup.config.js --bundleConfigAsCjs",
     "build:styles": "postcss src/styles.css -o dist/styles.css",
     "format": "prettier-package-json --write && npm run -- format:all --write",
     "format:all": "prettier --log-level warn '**/*.{js,ts,json,md}' '!CHANGELOG.md' '!dist/**'",
     "lint": "eslint src/ --ext js,ts --max-warnings 0",
-    "prepare": "npm run build",
     "prepublishOnly": "cp ../LICENSE.md ../README.md ./",
     "test": "jest",
     "test:ci": "prettier-package-json --list-different && npm run -- format:all --check && npm run lint && npm test"
@@ -59,7 +58,7 @@
     "prettier": "3.1.1",
     "prettier-package-json": "2.8.0",
     "react-is": "18.2.0",
-    "rollup": "2.79.1",
+    "rollup": "4.9.1",
     "rollup-plugin-delete": "2.0.0",
     "rollup-plugin-node-polyfills": "0.2.1",
     "tailwindcss": "3.4.0",

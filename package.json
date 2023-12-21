@@ -4,14 +4,14 @@
     "format": "prettier-package-json --write && npm run format --workspaces",
     "postinstall": "husky install",
     "lint": "markdownlint README.md && npm run lint --workspaces",
-    "prepare": "npm run prepare --workspace=plugin && npm run prepare --workspace=example",
+    "prepare": "npm run build --workspaces",
     "start": "npm start --workspace=example",
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
     "test": "npm test --workspace=plugin"
   },
   "workspaces": [
-    "example",
-    "plugin"
+    "plugin",
+    "example"
   ],
   "devDependencies": {
     "detect-indent": "6.1.0",
