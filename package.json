@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "format": "prettier-package-json --write && npm run format --workspaces",
-    "postinstall": "husky install",
+    "postinstall": "husky",
     "lint": "markdownlint README.md && npm run lint --workspaces",
     "prepare": "npm run build --workspaces",
     "start": "npm start --workspace=example",
