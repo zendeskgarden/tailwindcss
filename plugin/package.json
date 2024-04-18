@@ -22,7 +22,8 @@
     "lint": "eslint src/ --ext js,ts --max-warnings 0",
     "prepublishOnly": "cp ../LICENSE.md ../README.md ./",
     "test": "jest",
-    "test:ci": "prettier-package-json --list-different && npm run -- format:all --check && npm run lint && npm test"
+    "test:ci": "prettier-package-json --list-different && npm run -- format:all --check && npm run lint && npm test",
+    "test:watch": "jest --watch"
   },
   "types": "dist/typings/index.d.ts",
   "dependencies": {
