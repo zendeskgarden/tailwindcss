@@ -35,7 +35,7 @@
     "envalid": "8.0.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-n": "14.0.0",
     "eslint-plugin-notice": "0.9.10",
     "markdownlint-cli": "0.39.0",
     "postcss": "8.4.38",
