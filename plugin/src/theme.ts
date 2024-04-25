@@ -112,5 +112,21 @@ export const theme = {
     xl: DEFAULT_THEME.lineHeights.xl,
     '2xl': DEFAULT_THEME.lineHeights.xxl,
     '3xl': DEFAULT_THEME.lineHeights.xxxl
+  },
+  opacity: {
+    0: 0,
+    8: DEFAULT_THEME.opacity[100],
+    16: DEFAULT_THEME.opacity[200],
+    24: DEFAULT_THEME.opacity[300],
+    32: DEFAULT_THEME.opacity[400],
+    40: DEFAULT_THEME.opacity[500],
+    48: DEFAULT_THEME.opacity[600],
+    56: DEFAULT_THEME.opacity[700],
+    64: DEFAULT_THEME.opacity[800],
+    72: DEFAULT_THEME.opacity[900],
+    80: DEFAULT_THEME.opacity[1000],
+    88: DEFAULT_THEME.opacity[1100],
+    96: DEFAULT_THEME.opacity[1200],
+    100: 1
   }
 };
