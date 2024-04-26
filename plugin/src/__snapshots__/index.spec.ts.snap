@@ -415,7 +415,7 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(51 127 189 / 0.5);
+  --tw-ring-color: rgb(102 160 205 / 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -469,7 +469,7 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(51 127 189 / 0.5);
+  --tw-ring-color: rgb(102 160 205 / 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -893,7 +893,7 @@ svg{ max-height:100%; }
 --tw-ring-inset: ;
 --tw-ring-offset-width:0px;
 --tw-ring-offset-color:#fff;
---tw-ring-color:rgb(51 127 189 / 0.5);
+--tw-ring-color:rgb(102 160 205 / 0.5);
 --tw-ring-offset-shadow:0 0 #0000;
 --tw-ring-shadow:0 0 #0000;
 --tw-shadow:0 0 #0000;
@@ -947,7 +947,7 @@ svg{ max-height:100%; }
 --tw-ring-inset: ;
 --tw-ring-offset-width:0px;
 --tw-ring-offset-color:#fff;
---tw-ring-color:rgb(51 127 189 / 0.5);
+--tw-ring-color:rgb(102 160 205 / 0.5);
 --tw-ring-offset-shadow:0 0 #0000;
 --tw-ring-shadow:0 0 #0000;
 --tw-shadow:0 0 #0000;
@@ -981,7 +981,7 @@ exports[`Garden TailwindCSS Plugin Theme applies themed values 1`] = `
 "
         .custom-blue {
     --tw-text-opacity: 1;
-    color: rgb(31 115 183 / var(--tw-text-opacity))
+    color: rgb(38 148 214 / var(--tw-text-opacity))
 }
       "
 `;
