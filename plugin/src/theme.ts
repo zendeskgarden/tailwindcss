@@ -21,6 +21,7 @@ export const theme = {
     xl: DEFAULT_THEME.breakpoints.xl
   },
   colors: {
+    inherit: 'inherit',
     current: 'currentColor',
     transparent: 'transparent',
     ...DEFAULT_THEME.palette
@@ -69,15 +70,21 @@ export const theme = {
   },
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   boxShadow: (localTheme: any): any => ({
-    sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.600'), 0.15)),
-    DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.600'), 0.15)),
-    lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.600'), 0.15)),
+    sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.800'), 0.15)),
+    DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.800'), 0.15)),
+    lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.800'), 0.15)),
     inner: `inset ${DEFAULT_THEME.shadows.xs(
       localTheme('colors.white')
-    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.600'))}`,
+    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
+    'inner-dark': `inset ${DEFAULT_THEME.shadows.xs(
+      localTheme('colors.grey.1100')
+    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
     outline: `${DEFAULT_THEME.shadows.xs(
       localTheme('colors.white')
-    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.600'))}`,
+    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
+    'outline-dark': `${DEFAULT_THEME.shadows.xs(
+      localTheme('colors.grey.1100')
+    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
     none: 'none'
   }),
   fontFamily: {

@@ -5,10 +5,11 @@
   @apply rounded-2;
   @apply flex;
   @apply flex-col;
+  @apply dark:bg-grey-1000;
 }
 
 .header {
-  @apply bg-teal-600;
+  @apply bg-teal-700;
   @apply text-white;
   @apply font-semibold;
   @apply py-2;
@@ -26,7 +27,7 @@
   width: 54px;
   @apply h-4;
   @apply block;
-  @apply text-grey-500;
+  @apply text-grey-600;
   @apply ml-5;
   @apply mb-3;
 }
