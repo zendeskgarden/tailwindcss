@@ -6,7 +6,7 @@
     "lint": "markdownlint README.md && npm run lint --workspaces",
     "prepare": "npm run build --workspaces",
     "start": "npm start --workspace=example",
-    "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
+    "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'next' ] && standard-version --no-verify",
     "test": "npm test --workspace=plugin",
     "test:watch": "npm run test:watch --workspace=plugin"
   },
