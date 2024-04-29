@@ -21,6 +21,7 @@ export const theme = {
     xl: DEFAULT_THEME.breakpoints.xl
   },
   colors: {
+    inherit: 'inherit',
     current: 'currentColor',
     transparent: 'transparent',
     ...DEFAULT_THEME.palette
@@ -69,15 +70,21 @@ export const theme = {
   },
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   boxShadow: (localTheme: any): any => ({
-    sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.600'), 0.15)),
-    DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.600'), 0.15)),
-    lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.600'), 0.15)),
+    sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.800'), 0.15)),
+    DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.800'), 0.15)),
+    lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.800'), 0.15)),
     inner: `inset ${DEFAULT_THEME.shadows.xs(
-      DEFAULT_THEME.colors.background
-    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.600'))}`,
+      localTheme('colors.white')
+    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
+    'inner-dark': `inset ${DEFAULT_THEME.shadows.xs(
+      localTheme('colors.grey.1100')
+    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
     outline: `${DEFAULT_THEME.shadows.xs(
-      DEFAULT_THEME.colors.background
-    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.600'))}`,
+      localTheme('colors.white')
+    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
+    'outline-dark': `${DEFAULT_THEME.shadows.xs(
+      localTheme('colors.grey.1100')
+    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
     none: 'none'
   }),
   fontFamily: {
@@ -112,5 +119,21 @@ export const theme = {
     xl: DEFAULT_THEME.lineHeights.xl,
     '2xl': DEFAULT_THEME.lineHeights.xxl,
     '3xl': DEFAULT_THEME.lineHeights.xxxl
+  },
+  opacity: {
+    0: 0,
+    8: DEFAULT_THEME.opacity[100],
+    16: DEFAULT_THEME.opacity[200],
+    24: DEFAULT_THEME.opacity[300],
+    32: DEFAULT_THEME.opacity[400],
+    40: DEFAULT_THEME.opacity[500],
+    48: DEFAULT_THEME.opacity[600],
+    56: DEFAULT_THEME.opacity[700],
+    64: DEFAULT_THEME.opacity[800],
+    72: DEFAULT_THEME.opacity[900],
+    80: DEFAULT_THEME.opacity[1000],
+    88: DEFAULT_THEME.opacity[1100],
+    96: DEFAULT_THEME.opacity[1200],
+    100: 1
   }
 };
