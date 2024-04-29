@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0-next.0](https://github.com/zendeskgarden/tailwindcss/compare/v3.1.1...v4.0.0-next.0) (2024-04-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to Garden theming v9 (pre-release) (#223)
+
+### Features
+
+* upgrade to Garden theming v9 (pre-release) ([#223](https://github.com/zendeskgarden/tailwindcss/issues/223)) ([0e91f68](https://github.com/zendeskgarden/tailwindcss/commit/0e91f687b6fe84344d622c6cbfda411d86d515ff))
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.31 [security] ([#181](https://github.com/zendeskgarden/tailwindcss/issues/181)) ([1c76ffd](https://github.com/zendeskgarden/tailwindcss/commit/1c76ffdb512f3d4027d1324a7f5b9efa0c38b276))
+* **deps:** update dependency styled-components to v6 ([#179](https://github.com/zendeskgarden/tailwindcss/issues/179)) ([4a1f89e](https://github.com/zendeskgarden/tailwindcss/commit/4a1f89e9617b033dd1889a43fca5033d3960d5e1))
+
 ### [3.1.1](https://github.com/zendeskgarden/tailwindcss/compare/v3.1.0...v3.1.1) (2023-07-20)
 
 ## [3.1.0](https://github.com/zendeskgarden/tailwindcss/compare/v3.0.1...v3.1.0) (2023-06-16)
