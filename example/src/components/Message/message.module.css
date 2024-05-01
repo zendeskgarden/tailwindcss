@@ -31,7 +31,7 @@
   border: 0 solid;
   @apply block;
   @apply w-full;
-  @apply bg-inherit;
+  @apply bg-white;
   @apply border;
   @apply border-grey-300;
   @apply text-blue-700;
@@ -42,6 +42,7 @@
   @apply duration-75;
   @apply ease-in-out;
   @apply relative;
+  @apply dark:bg-grey-1000;
   @apply dark:border-grey-700;
   @apply dark:text-white;
 }
