@@ -27,7 +27,7 @@ export const MessageGroup: React.FC<{
         [styles['message-group--user']]: type === 'user'
       })}
     >
-      {title && <div className={styles.title}>{title}</div>}
+      {title !== undefined && <div className={styles.title}>{title}</div>}
       {children}
       {avatar && <div className={styles.avatar}>{avatar}</div>}
     </div>
