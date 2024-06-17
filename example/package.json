@@ -27,7 +27,7 @@
     "@typescript-eslint/eslint-plugin": "7.13.0",
     "@typescript-eslint/parser": "7.13.0",
     "@vitejs/plugin-react-swc": "3.7.0",
-    "@zendeskgarden/eslint-config": "39.0.1",
+    "@zendeskgarden/eslint-config": "41.0.0",
     "@zendeskgarden/scripts": "2.0.4",
     "@zendeskgarden/svg-icons": "7.1.1",
     "@zendeskgarden/tailwindcss": "3.1.1",
