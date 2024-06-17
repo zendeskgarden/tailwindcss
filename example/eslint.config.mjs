@@ -33,7 +33,8 @@ export default [
   {
     rules: {
       'sort-imports': [1, { allowSeparatedGroups: true }],
-      'n/no-missing-import': 'off'
+      'n/no-missing-import': 'off',
+      '@typescript-eslint/strict-boolean-expressions': 'off'
     }
   }
 ];
