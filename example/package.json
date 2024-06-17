@@ -36,7 +36,7 @@
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-n": "14.0.0",
-    "eslint-plugin-notice": "0.9.10",
+    "eslint-plugin-notice": "1.0.0",
     "markdownlint-cli": "0.41.0",
     "postcss": "8.4.38",
     "postcss-focus-visible": "9.0.1",
