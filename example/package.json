@@ -8,7 +8,7 @@
     "build": "vite build",
     "format": "prettier-package-json --write && prettier --log-level warn '**/*.{ts,tsx,js,cjs,mjs,json,md}' '!build/**' --write",
     "lint": "npm run lint:js && npm run lint:md",
-    "lint:js": "eslint . --ext js,mjs,ts,tsx",
+    "lint:js": "eslint . --max-warnings 0",
     "lint:md": "markdownlint README.md",
     "start": "vite --open",
     "test:ci": "npm run -- format --check && npm run lint"
@@ -21,11 +21,8 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.24.7",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "@typescript-eslint/eslint-plugin": "7.13.0",
-    "@typescript-eslint/parser": "7.13.0",
     "@vitejs/plugin-react-swc": "3.7.0",
     "@zendeskgarden/eslint-config": "41.0.0",
     "@zendeskgarden/scripts": "2.0.4",
@@ -33,10 +30,8 @@
     "@zendeskgarden/tailwindcss": "3.1.1",
     "autoprefixer": "10.4.19",
     "envalid": "8.0.0",
-    "eslint": "8.57.0",
+    "eslint": "9.5.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-n": "14.0.0",
-    "eslint-plugin-notice": "0.9.10",
     "markdownlint-cli": "0.41.0",
     "postcss": "8.4.38",
     "postcss-focus-visible": "9.0.1",
