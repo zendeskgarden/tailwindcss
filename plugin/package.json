@@ -49,7 +49,7 @@
     "@typescript-eslint/parser": "7.13.0",
     "@zendeskgarden/eslint-config": "39.0.1",
     "@zendeskgarden/scripts": "2.0.4",
-    "eslint": "8.57.0",
+    "eslint": "9.5.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jest": "28.6.0",
     "eslint-plugin-n": "14.0.0",
