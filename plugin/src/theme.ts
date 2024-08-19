@@ -49,7 +49,6 @@ export const theme = {
     56: `${BASE * 56}px`,
     64: `${BASE * 64}px`
   },
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   borderColor: (localTheme: any): any => ({
     ...localTheme('colors'),
     DEFAULT: localTheme('colors.grey.300', 'currentColor')
@@ -68,7 +67,6 @@ export const theme = {
     4: '4px',
     8: '8px'
   },
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   boxShadow: (localTheme: any): any => ({
     sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.800'), 0.15)),
     DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.800'), 0.15)),

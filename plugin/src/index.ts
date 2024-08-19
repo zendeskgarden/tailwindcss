@@ -5,7 +5,7 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-import fs from 'fs';
+import fs from 'node:fs';
 import { theme as gardenTheme } from './theme';
 import plugin from 'tailwindcss/plugin';
 import postcss from 'postcss';
@@ -15,8 +15,6 @@ interface IPluginOptions {
 }
 
 const DEFAULT_OPTIONS: IPluginOptions = { includeBedrock: true };
-
-/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-return */
 
 export default plugin.withOptions(
   (options: IPluginOptions = DEFAULT_OPTIONS) =>
@@ -35,6 +33,7 @@ export default plugin.withOptions(
       addBase(gardenBedrockCSS);
     },
   (options: IPluginOptions = DEFAULT_OPTIONS) =>
+    /* eslint-disable-next-line @typescript-eslint/no-unsafe-return */
     ({
       theme: gardenTheme, // Overwrite global theme with Garden values
       corePlugins: {
