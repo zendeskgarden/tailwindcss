@@ -15,5 +15,3 @@ technologies and techniques to apply Garden design tokens with Tailwind.
 - [Tailwind CSS](https://tailwindcss.com/) and the
   [@zendeskgarden/tailwindcss](https://github.com/zendeskgarden/tailwindcss) plugin
 - [CSS Modules](https://github.com/css-modules/css-modules) for component scoped styles
-- [focus-visible polyfills](https://github.com/csstools/postcss-focus-visible)
-  for `:focus-visible` support across browsers

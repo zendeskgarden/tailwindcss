@@ -26,6 +26,7 @@ describe('Garden TailwindCSS Plugin', () => {
 
     it('applies preflight styles when disabled', async () => {
       const result = await processCSS(
+        /* eslint-disable-next-line @typescript-eslint/no-confusing-void-expression */
         { plugins: [gardenPlugin({ includeBedrock: false })] },
         '@tailwind base;'
       );
