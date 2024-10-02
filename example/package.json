@@ -14,10 +14,14 @@
     "test:ci": "npm run -- format --check && npm run lint"
   },
   "dependencies": {
+    "@zendeskgarden/react-forms": "9.0.0",
+    "@zendeskgarden/react-theming": "9.0.0",
+    "@zendeskgarden/react-typography": "9.0.0",
     "@zendeskgarden/tailwindcss": "4.0.0-next.0",
     "classnames": "2.5.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "styled-components": "6.1.13"
   },
   "devDependencies": {
     "@types/react": "18.3.3",
@@ -25,7 +29,7 @@
     "@vitejs/plugin-react-swc": "3.7.0",
     "@zendeskgarden/eslint-config": "43.0.0",
     "@zendeskgarden/scripts": "2.4.1",
-    "@zendeskgarden/svg-icons": "7.2.0",
+    "@zendeskgarden/svg-icons": "7.3.0",
     "@zendeskgarden/tailwindcss": "4.0.0-next.0",
     "autoprefixer": "10.4.20",
     "envalid": "8.0.0",
