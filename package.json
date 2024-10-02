@@ -6,7 +6,7 @@
     "lint": "markdownlint README.md && npm run lint --workspaces",
     "prepare": "npm run build --workspaces",
     "start": "npm start --workspace=example",
-    "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
+    "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && commit-and-tag-version --no-verify --npmPublishHint 'true'",
     "test": "npm test --workspace=plugin",
     "test:watch": "npm run test:watch --workspace=plugin"
   },
@@ -15,12 +15,12 @@
     "example"
   ],
   "devDependencies": {
+    "commit-and-tag-version": "12.4.4",
     "detect-indent": "6.1.0",
     "detect-newline": "3.1.0",
     "husky": "9.1.4",
     "markdownlint-cli": "0.41.0",
     "prettier-package-json": "2.8.0",
-    "standard-version": "9.5.0",
     "stringify-package": "1.0.1"
   }
 }
