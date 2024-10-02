@@ -9,6 +9,7 @@ const gardenTailwindCSSPlugin = require('@zendeskgarden/tailwindcss');
 
 module.exports = {
   content: ['./src/**/*.{jsx,tsx}'],
+  darkMode: ['selector', '[data-scheme="dark"]'],
   theme: {
     extend: {
       borderRadius: theme => ({
