@@ -68,9 +68,26 @@ export const theme = {
     8: '8px'
   },
   boxShadow: (localTheme: any): any => ({
-    sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.kale.800'), 0.15)),
-    DEFAULT: DEFAULT_THEME.shadows.md(rgba(localTheme('colors.kale.800'), 0.15)),
-    lg: DEFAULT_THEME.shadows.lg('20px', '28px', rgba(localTheme('colors.kale.800'), 0.15)),
+    sm: DEFAULT_THEME.shadows.sm(rgba(localTheme('colors.grey.1200'), localTheme('opacity.16'))),
+    'sm-dark': DEFAULT_THEME.shadows.sm(
+      rgba(localTheme('colors.grey.1200'), localTheme('opacity.88'))
+    ),
+    DEFAULT: DEFAULT_THEME.shadows.md(
+      rgba(localTheme('colors.grey.1200'), localTheme('opacity.16'))
+    ),
+    'md-dark': DEFAULT_THEME.shadows.md(
+      rgba(localTheme('colors.grey.1200'), localTheme('opacity.64'))
+    ),
+    lg: DEFAULT_THEME.shadows.lg(
+      '20px',
+      '28px',
+      rgba(localTheme('colors.grey.1200'), localTheme('opacity.16'))
+    ),
+    'lg-dark': DEFAULT_THEME.shadows.lg(
+      '20px',
+      '28px',
+      rgba(localTheme('colors.grey.1200'), localTheme('opacity.80'))
+    ),
     inner: `inset ${DEFAULT_THEME.shadows.xs(
       localTheme('colors.white')
     )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,

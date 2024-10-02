@@ -6,6 +6,7 @@
   @apply flex;
   @apply flex-col;
   @apply dark:bg-grey-1000;
+  @apply dark:shadow-lg-dark;
 }
 
 .header {
