@@ -4,26 +4,31 @@
   height: 68px;
   @apply block;
   @apply rounded;
+  @apply bg-inherit;
   @apply border;
   @apply border-grey-300;
   @apply mx-5;
   @apply my-3;
   @apply px-3;
   @apply resize-none;
+  @apply text-inherit;
   @apply transition-all;
   @apply duration-150;
   @apply ease-in-out;
+  @apply dark:border-grey-800;
 }
 
 .textarea:focus, .textarea:hover, .textarea:active {
-  @apply border-blue-600;
+  @apply border-blue-700;
 }
 
 .textarea:focus {
   @apply outline-none;
   @apply shadow-outline;
+  @apply dark:shadow-outline-dark;
 }
 
 .textarea::placeholder {
   @apply text-grey-400;
+  @apply dark:text-grey-700;
 }

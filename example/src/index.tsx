@@ -9,11 +9,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 /**
- * Configure polyfill for :focus-visible functionality
- */
-import 'focus-visible';
-
-/**
  * Include global Tailwind CSS utilities and Garden Bedrock styling
  */
 import './index.css';

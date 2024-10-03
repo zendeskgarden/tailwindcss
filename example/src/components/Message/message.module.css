@@ -2,10 +2,12 @@
   padding-top: 6px;
   padding-bottom: 6px;
   @apply bg-grey-200;
-  @apply text-grey-800;
+  @apply text-grey-900;
   @apply rounded-4;
   @apply px-4;
   @apply mb-2;
+  @apply dark:bg-grey-800;
+  @apply dark:text-white;
 }
 
 .message--maker {
@@ -14,7 +16,7 @@
 
 .message--user {
   @apply self-end;
-  @apply bg-teal-600;
+  @apply bg-teal-700;
   @apply text-white;
 }
 
@@ -32,7 +34,7 @@
   @apply bg-white;
   @apply border;
   @apply border-grey-300;
-  @apply text-blue-600;
+  @apply text-blue-700;
   @apply leading-lg;
   @apply px-2;
   @apply py-2;
@@ -40,22 +42,27 @@
   @apply duration-75;
   @apply ease-in-out;
   @apply relative;
+  @apply dark:bg-grey-1000;
+  @apply dark:border-grey-700;
+  @apply dark:text-white;
 }
 
 .action:hover {
-  @apply text-blue-700;
-  @apply bg-blue-600;
+  @apply text-blue-800;
+  @apply bg-blue-700;
   @apply bg-opacity-10;
-  @apply border-blue-600;
+  @apply border-blue-700;
   @apply z-10;
+  @apply dark:text-white;
 }
 
 .action:active {
-  @apply text-blue-800;
-  @apply bg-blue-600;
+  @apply text-blue-900;
+  @apply bg-blue-700;
   @apply bg-opacity-20;
-  @apply border-blue-600;
+  @apply border-blue-700;
   @apply z-10;
+  @apply dark:text-white;
 }
 
 .action:not(:first-child) {
@@ -72,6 +79,7 @@
 
 .action:focus-visible {
   @apply shadow-inner;
-  @apply border-blue-600;
+  @apply border-blue-700;
   @apply z-10;
+  @apply dark:shadow-inner-dark;
 }

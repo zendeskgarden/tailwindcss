@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply dark:bg-grey-900;
+  @apply dark:text-white;
+}
+
+a {
+  @apply text-blue-700;
+  @apply dark:text-blue-600;
+}

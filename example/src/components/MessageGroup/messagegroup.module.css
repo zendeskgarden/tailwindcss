@@ -16,7 +16,7 @@
 }
 
 .title {
-  @apply text-grey-600;
+  @apply text-grey-700;
   @apply text-sm;
   @apply px-4;
   @apply font-light;

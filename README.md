@@ -37,7 +37,11 @@ Apply Garden design tokens using
 [Tailwind utility classes](https://tailwindcss.com/docs/utility-first).
 
 ```html
-<img class="rounded-full h-8 w-8 border border-green-600" src="avatar.png" alt="Avatar" />
+<img
+  class="rounded-full h-8 w-8 border border-mint-500 dark:border-mint-400"
+  src="avatar.png"
+  alt="Avatar"
+/>
 ```
 
 ### Class Composition with `@apply`
@@ -49,7 +53,8 @@ for more advanced functionality like [CSS modules](https://github.com/css-module
 
 ```css
 .title {
-  @apply text-grey-600;
+  @apply text-grey-900;
+  @apply dark:text-grey-300;
   @apply text-sm;
   @apply px-4;
   @apply font-light;
