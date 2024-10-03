@@ -1,6 +1,6 @@
 {
   "name": "@zendeskgarden/tailwindcss",
-  "version": "4.0.0-next.0",
+  "version": "4.0.0",
   "description": "Garden Design Tokens",
   "license": "Apache-2.0",
   "author": "Zendesk Garden <garden@zendesk.com>",

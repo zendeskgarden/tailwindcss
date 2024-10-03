@@ -1,6 +1,26 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [4.0.0](https://github.com/zendeskgarden/tailwindcss/compare/v3.1.1...v4.0.0) (2024-10-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Utility colors now map to the new v9 [color](https://garden.zendesk.com/design/color) palette
+  - Expanded to support light & dark modes. See [theme colors](https://garden.zendesk.com/components/theme-object#colors) for details.
+  - No longer offers secondary color muted (i.e. `royal-M400`) variants
+- Adds new `opacity` utilities that correspond to v9 [theme opacity](https://garden.zendesk.com/components/theme-object#opacity)
+
+### Features
+
+* upgrade to Garden theming v9 ([#242](https://github.com/zendeskgarden/tailwindcss/issues/242)) ([b54e338](https://github.com/zendeskgarden/tailwindcss/commit/b54e33850599fef8c331328e3ada03630433ea65))
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.31 [security] ([#181](https://github.com/zendeskgarden/tailwindcss/issues/181)) ([1c76ffd](https://github.com/zendeskgarden/tailwindcss/commit/1c76ffdb512f3d4027d1324a7f5b9efa0c38b276))
+* **deps:** update dependency styled-components to v6 ([#179](https://github.com/zendeskgarden/tailwindcss/issues/179)) ([4a1f89e](https://github.com/zendeskgarden/tailwindcss/commit/4a1f89e9617b033dd1889a43fca5033d3960d5e1))
 
 ## [4.0.0-next.0](https://github.com/zendeskgarden/tailwindcss/compare/v3.1.1...v4.0.0-next.0) (2024-04-29)
 
