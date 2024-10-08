@@ -18,8 +18,5 @@
       "filename": "./package-lock.json",
       "type": "json"
     }
-  ],
-  "scripts": {
-    "postbump": "npm install"
-  }
+  ]
 }
