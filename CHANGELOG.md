@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [4.0.1](https://github.com/zendeskgarden/tailwindcss/compare/v4.0.0...v4.0.1) (2024-10-08)
+
+
+### Bug Fixes
+
+* dark mode shadows ([#243](https://github.com/zendeskgarden/tailwindcss/issues/243)) ([e0ce600](https://github.com/zendeskgarden/tailwindcss/commit/e0ce60099e2d871069b291333f026dbfd156ff4e))
+
 ## [4.0.0](https://github.com/zendeskgarden/tailwindcss/compare/v3.1.1...v4.0.0) (2024-10-03)
 
 
