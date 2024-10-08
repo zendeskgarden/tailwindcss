@@ -93,13 +93,13 @@ export const theme = {
     )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
     'inner-dark': `inset ${DEFAULT_THEME.shadows.xs(
       localTheme('colors.grey.1100')
-    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
+    )}, inset ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.600'))}`,
     outline: `${DEFAULT_THEME.shadows.xs(
       localTheme('colors.white')
     )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
     'outline-dark': `${DEFAULT_THEME.shadows.xs(
       localTheme('colors.grey.1100')
-    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.700'))}`,
+    )}, ${DEFAULT_THEME.shadows.md(localTheme('colors.blue.600'))}`,
     none: 'none'
   }),
   fontFamily: {
