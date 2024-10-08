@@ -13,9 +13,13 @@
     {
       "filename": "./example/package.json",
       "updater": "utils/example-package-updater.js"
+    },
+    {
+      "filename": "./package-lock.json",
+      "type": "json"
     }
   ],
   "scripts": {
-    "precommit": "npm install"
+    "postbump": "npm install"
   }
 }
