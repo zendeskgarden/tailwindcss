@@ -19,6 +19,7 @@ module.exports.writeVersion = function (contents, version) {
   const newline = detectNewline(contents);
 
   json.dependencies['@zendeskgarden/tailwindcss'] = version;
+  json.devDependencies['@zendeskgarden/tailwindcss'] = version;
 
   return stringifyPackage(json, indent, newline);
 };

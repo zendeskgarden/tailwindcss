@@ -13,6 +13,10 @@
     {
       "filename": "./example/package.json",
       "updater": "utils/example-package-updater.js"
+    },
+    {
+      "filename": "./package-lock.json",
+      "type": "json"
     }
   ]
 }
