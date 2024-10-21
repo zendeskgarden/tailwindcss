@@ -41,7 +41,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "26.0.1",
     "@rollup/plugin-node-resolve": "15.2.3",
-    "@rollup/plugin-typescript": "11.1.6",
+    "@rollup/plugin-typescript": "12.1.1",
     "@types/jest": "29.5.12",
     "@types/node": "20.16.1",
     "@zendeskgarden/eslint-config": "43.0.0",
