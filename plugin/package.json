@@ -44,7 +44,7 @@
     "@rollup/plugin-typescript": "11.1.6",
     "@types/jest": "29.5.14",
     "@types/node": "20.17.3",
-    "@zendeskgarden/eslint-config": "43.0.0",
+    "@zendeskgarden/eslint-config": "44.0.1",
     "@zendeskgarden/scripts": "2.4.2",
     "eslint": "9.13.0",
     "eslint-config-prettier": "9.1.0",
