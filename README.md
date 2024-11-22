@@ -1,4 +1,4 @@
-# Garden Design Tokens [![npm version][npm version badge]][npm version link] [![Build Status][build status badge]][build status link] [![Dependency Status][dependency status badge]][dependency status link]<!-- markdownlint-disable -->
+# Garden Design Tokens [![npm version][npm version badge]][npm version link] [![Build Status][build status badge]][build status link]<!-- markdownlint-disable -->
 
 <!-- markdownlint-enable -->
 
@@ -6,8 +6,6 @@
 [npm version link]: https://www.npmjs.com/package/@zendeskgarden/tailwindcss
 [build status badge]: https://flat.badgen.net/circleci/github/zendeskgarden/tailwindcss/main?label=build
 [build status link]: https://circleci.com/gh/zendeskgarden/tailwindcss/tree/main
-[dependency status badge]: https://flat.badgen.net/david/dev/zendeskgarden/tailwindcss?label=dependencies
-[dependency status link]: https://david-dm.org/zendeskgarden/tailwindcss?type=dev
 
 > :seedling: Garden is the design system by Zendesk
 
@@ -100,6 +98,6 @@ conduct](.github/CODE_OF_CONDUCT.md). Please participate accordingly.
 
 ## License
 
-Copyright 2021 Zendesk
+Copyright 2025 Zendesk
 
 Licensed under the [Apache License, Version 2.0](LICENSE.md)
