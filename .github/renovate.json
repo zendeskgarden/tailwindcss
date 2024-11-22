@@ -1,6 +1,6 @@
 {
-  "extends": ["config:base", "group:allNonMajor"],
-  "rebaseStalePrs": true,
-  "schedule": ["on Monday every 9 weeks of the year starting on the 7th week"],
+  "extends": ["config:recommended", "group:allNonMajor"],
+  "rebaseWhen": "behind-base-branch",
+  "schedule": ["on Monday every 9 weeks of the year starting on the 3rd week"],
   "postUpdateOptions": ["npmDedupe"]
 }
