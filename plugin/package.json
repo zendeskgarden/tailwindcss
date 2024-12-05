@@ -43,7 +43,7 @@
     "@rollup/plugin-node-resolve": "15.3.0",
     "@rollup/plugin-typescript": "12.1.1",
     "@types/jest": "29.5.14",
-    "@types/node": "20.17.9",
+    "@types/node": "22.10.1",
     "@zendeskgarden/eslint-config": "44.0.1",
     "@zendeskgarden/scripts": "2.4.3",
     "eslint": "9.13.0",
