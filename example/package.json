@@ -33,7 +33,7 @@
     "@zendeskgarden/tailwindcss": "4.0.2",
     "autoprefixer": "10.4.20",
     "envalid": "8.0.0",
-    "eslint": "9.16.0",
+    "eslint": "9.13.0",
     "eslint-config-prettier": "9.1.0",
     "markdownlint-cli": "0.43.0",
     "postcss": "8.4.49",
