@@ -33,7 +33,7 @@ export default plugin.withOptions(
       addBase(gardenBedrockCSS);
     },
   (options: IPluginOptions = DEFAULT_OPTIONS) =>
-    /* eslint-disable-next-line @typescript-eslint/no-unsafe-return */
+    /* eslint-disable-next-line @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-type-assertion */
     ({
       theme: gardenTheme, // Overwrite global theme with Garden values
       corePlugins: {
