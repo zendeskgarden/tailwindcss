@@ -34,7 +34,7 @@
     "autoprefixer": "10.4.21",
     "envalid": "8.1.0",
     "eslint": "9.14.0",
-    "eslint-config-prettier": "9.1.2",
+    "eslint-config-prettier": "10.1.8",
     "markdownlint-cli": "0.45.0",
     "postcss": "8.5.6",
     "prettier": "3.6.2",

@@ -47,7 +47,7 @@
     "@zendeskgarden/eslint-config": "44.0.1",
     "@zendeskgarden/scripts": "2.4.5",
     "eslint": "9.14.0",
-    "eslint-config-prettier": "9.1.2",
+    "eslint-config-prettier": "10.1.8",
     "jest": "29.7.0",
     "postcss-cli": "11.0.1",
     "prettier": "3.6.2",
