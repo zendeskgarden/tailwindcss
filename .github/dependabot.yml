@@ -5,4 +5,4 @@ updates:
     schedule:
       interval: 'weekly'
     versioning-strategy: lockfile-only
-    labels: []
+    labels: [ ]
