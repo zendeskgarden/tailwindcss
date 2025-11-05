@@ -11,7 +11,7 @@ import React, { useLayoutEffect, useState } from 'react';
 import IconDark from '@zendeskgarden/svg-icons/src/16/moon-stroke.svg?react';
 import IconLight from '@zendeskgarden/svg-icons/src/16/sun-stroke.svg?react';
 import { Span } from '@zendeskgarden/react-typography';
-import WordmarkAnswerBot from '@zendeskgarden/svg-icons/src/26/answer-bot.svg?react';
+import WordmarkAnswerBot from './icons/bot.svg?react';
 
 import { Action, Message } from './components/Message';
 import { ConversationLog } from './components/ConversationLog';
