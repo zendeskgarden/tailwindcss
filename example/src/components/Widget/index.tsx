@@ -6,7 +6,7 @@
  */
 
 import React, { ReactNode } from 'react';
-import WordmarkZendesk from '@zendeskgarden/svg-icons/src/26/wordmark-zendesk.svg?react';
+import WordmarkZendesk from '../../icons/zendesk.svg?react';
 import styles from './widget.module.css';
 
 export const Widget: React.FC<{ title: string; children: ReactNode }> = ({ children, title }) => (
