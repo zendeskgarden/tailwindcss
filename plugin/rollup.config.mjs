@@ -10,7 +10,7 @@ import del from 'rollup-plugin-delete';
 import nodePolyfills from 'rollup-plugin-node-polyfills';
 import nodeResolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
-import pkg from './package.json';
+import pkg from './package.json' with { type: 'json' };
 
 export default {
   input: ['src/index.ts'],
