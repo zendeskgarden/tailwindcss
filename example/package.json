@@ -26,7 +26,7 @@
   "devDependencies": {
     "@types/react": "18.3.27",
     "@types/react-dom": "18.3.7",
-    "@vitejs/plugin-react-swc": "3.11.0",
+    "@vitejs/plugin-react-swc": "4.2.2",
     "@zendeskgarden/eslint-config": "47.0.0",
     "@zendeskgarden/scripts": "2.5.0",
     "@zendeskgarden/svg-icons": "8.1.0",
