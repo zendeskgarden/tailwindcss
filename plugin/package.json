@@ -31,8 +31,8 @@
     "@zendeskgarden/react-theming": "^9.0.0",
     "polished": "^4.1.1",
     "postcss": "^8.2.8",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "styled-components": "^6.0.0"
   },
   "peerDependencies": {
@@ -52,7 +52,7 @@
     "postcss-cli": "11.0.1",
     "prettier": "3.7.4",
     "prettier-package-json": "2.8.0",
-    "react-is": "18.3.1",
+    "react-is": "19.2.4",
     "rollup": "4.53.3",
     "rollup-plugin-delete": "3.0.1",
     "rollup-plugin-node-polyfills": "0.2.1",
