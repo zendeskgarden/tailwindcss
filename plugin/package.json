@@ -53,7 +53,7 @@
     "prettier": "3.7.4",
     "prettier-package-json": "2.8.0",
     "react-is": "18.3.1",
-    "rollup": "4.53.3",
+    "rollup": "4.59.0",
     "rollup-plugin-delete": "3.0.1",
     "rollup-plugin-node-polyfills": "0.2.1",
     "tailwindcss": "3.4.18",
