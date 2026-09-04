@@ -46,7 +46,7 @@
     "@types/node": "24.10.1",
     "@zendeskgarden/eslint-config": "47.0.0",
     "@zendeskgarden/scripts": "2.5.0",
-    "eslint": "9.39.1",
+    "eslint": "10.10.0",
     "eslint-config-prettier": "10.1.8",
     "jest": "30.2.0",
     "postcss-cli": "11.0.1",
